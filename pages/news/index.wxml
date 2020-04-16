@@ -1,2 +1,28 @@
-<!--pages/news/index.wxml-->
-<text>pages/news/index.wxml</text>
+<view class="news">
+  <view>
+    <image src="/image/newB.png" class="new_i"></image>
+  </view>
+  <view class="new_box">
+    <view class="new_tit">
+      <image src="/image/new_icon.png" class="new_icon"></image>
+      <text class="tit_n">云股新闻动态</text>
+    </view>
+    <view class="list">
+      <block wx:for="{{proList}}" wx:key="{{index}}" wx:for-item="item">
+        <view class="pro">
+          <image src="{{item.image}}" class="new_img"></image>
+          <view class="text">
+            <text class="text_tit">{{item.title}}</text>
+            <text class="text_con">{{item.context}}</text>
+          </view>
+          <view class="yad">
+            <view class="date">{{item.date}}</view>
+            <view class="line"></view>
+            <view class="year">{{item.year}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+<view style="width:100%;height:30rpx"></view>
+</view>

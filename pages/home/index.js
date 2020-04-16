@@ -93,5 +93,13 @@ Page({
     wx.makePhoneCall({
       phoneNumber: phone,
     })
+  },
+  scollBottom(){
+    wx.createSelectorQuery().select('#home').boundingClientRect(function(rect){
+      // 使页面滚动到底部
+      wx.pageScrollTo({
+        scrollTop: rect.height
+      })
+    }).exec()
   }
 })

@@ -129,6 +129,12 @@
 .ib_inp_p{
   color:#B3B2B2;
   font-size:30rpx;
+  line-height:60rpx;
+}
+.ib_area{
+  color:#B3B2B2;
+  font-size:30rpx;
+  line-height:30rpx;
 }
 .area_box{
   margin-top:20rpx;
@@ -141,10 +147,10 @@
   justify-content:center;
 }
 .tarea{
-  height:100rpx;
-}
-.tarea{
   width:300rpx;
+  height:100rpx;
+  font-size:30rpx;
+  line-height:30rpx;
 }
 .btn_box{
   margin-bottom:30rpx;
@@ -160,15 +166,11 @@
 }
 .ls{
   width:56rpx;
-  height:48rpx;
-  margin-right:25rpx;
+  height:56rpx;
+  padding-right:25rpx;
 }
 .dh{
-  width:430rpx;
-}
-.dh text{
-  display:block;
-  margin-top:5rpx;
+  width:400rpx;
 }
 .btn_box .btn{
   width:80%;
@@ -188,6 +190,39 @@
   display:flex;
   justify-content:cneter;
   align-items:center;
-  width:430rpx;
+  width:400rpx;
+}
+.lph text{
+  font-size: 30rpx;
+  line-height:30rpx;
+  margin-top:5rpx;
+}
+.posi{
+  position: fixed;
+  top:80%;
+  right:20rpx;
+  border-radius: 50%;
+  background-color: rgba(250, 117, 28, 0.904);
+  width:120rpx;
+  height:120rpx;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2rpx 3rpx rgb(245, 238, 234);
+}
+.posi .wylx{
+  width:60rpx;
+  height:60rpx;
+  text-align: center;
+  display: block;
+  font-size:30rpx;
+  height:30rpx;
+  margin:5rpx 0;
+  color:#fff;
+}
+.container{
+  width:100%;
+  height:auto;
 }
 /* 恒隆 */
