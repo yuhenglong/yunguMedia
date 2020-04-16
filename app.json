@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/classify/index",
+    "pages/news/index",
+    "pages/me/index",
+    "pages/about",
+    "pages/about/index",
+    "pages/luoyan/index",
+    "pages/infoSave/index",
+    "pages/face/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff751d",
+    "navigationBarTitleText": "云股传媒",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#ff751d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-hl.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "iconPath": "image/classify.png",
+        "selectedIconPath": "image/classify-hl.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "iconPath": "image/news.png",
+        "selectedIconPath": "image/news-hl.png",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/me-hl.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
