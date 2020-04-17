@@ -1,2 +1,25 @@
-<!--pages/me/index.wxml-->
-<text>pages/me/index.wxml</text>
+<view class='container'>
+<view class="mebj">
+  <image src="/image/me-bj.png" class="me_bj"></image>
+</view>
+  <view class='userinfo'>
+    <block wx:if="{{!hasUserInfo && canIUse}}">
+      <image src="/image/head.png" class="head"></image>
+      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="hq"> 获取头像昵称 </button>
+    </block>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+<view wx:if="{{loginOut}}" class="lo">
+  <button class="lo_btn" bindtap="loginOut">退出登录</button>
+</view>
+<view class="youhui">
+  <label for="sbtn" class="lab">
+    <image src="/image/youhui.png" class="yhh"></image>
+  </label>
+  <button open-type="share" class="sbtn" id="sbtn"></button>
+</view>
+</view>

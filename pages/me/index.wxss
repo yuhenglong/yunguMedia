@@ -1,1 +1,87 @@
-/* pages/me/index.wxss */
+.userinfo {
+  width:100%;
+  height:350rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.userinfo button{
+  background-color: #fff
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #666;
+  margin-top:30rpx;
+  font-size:30rpx;
+  line-height:30rpx;
+}
+
+/* 恒隆 */
+.mebj .me_bj{
+  width:100%;
+  height:350rpx;
+}
+.userinfo image{
+  width:120rpx;
+  height:120rpx;
+  margin-top:102.5rpx;
+}
+.hq{
+  font-size:30rpx;
+  line-height:35rpx;
+  border-radius: 15rpx;
+  border:2rpx solid #ff751d;
+  color:#ff751d;
+  margin-top:20rpx;
+}
+
+.lo .lo_btn{
+  color: #666;
+  margin-top:20rpx;
+  font-size:30rpx;
+  line-height:50rpx;
+  width:690rpx;
+}
+.container{
+  background-color: #eee;
+}
+.youhui{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:20rpx;
+  background-color: #eee;
+  position: relative;
+}
+.youhui .yhh{
+  width:690rpx;
+  height:311rpx;
+}
+.youhui .sbtn{
+  display:hidden;
+  position: absolute;
+  top:50%;
+  left:50%;
+  z-index:-1;
+  background-color: #eee;
+}
+.lab{
+  width:690rpx;
+  height:311rpx;
+  background-color: #eee;
+  z-index:99;
+}
