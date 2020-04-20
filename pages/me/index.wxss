@@ -39,11 +39,11 @@
 }
 .hq{
   font-size:30rpx;
-  line-height:35rpx;
+  /* line-height:35rpx; */
   border-radius: 15rpx;
   border:2rpx solid #ff751d;
   color:#ff751d;
-  margin-top:20rpx;
+  margin-top:25rpx;
 }
 
 .lo .lo_btn{

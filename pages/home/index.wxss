@@ -35,8 +35,8 @@
 	height: 150rpx; 
 }
 .logotext{
-	color: #aaa;
-	font-size: 22rpx;
+	color: #666;
+	font-size: 26rpx;
 }
 /* scroll-view 不显示滚动条 */
 ::-webkit-scrollbar {
