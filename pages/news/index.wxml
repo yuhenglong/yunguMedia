@@ -1,9 +1,8 @@
-<view class="news">
+
   <view>
     <image src="/image/newB.png" class="new_i"></image>
   </view>
-  <!-- start -->
-  <view class='container'>
+
   <component-scroll 
   pulldownDistance="100" 
   refreshPulldownText="你再往下拉试试" 
@@ -38,11 +37,6 @@
         </view>
       </block>
     </view>
-·
+
   </view>
-  <!-- start -->
-    </component-scroll>
-</view>
-  <!-- end -->
-<view style="width:100%;height:30rpx"></view>
-</view>
+</component-scroll>
