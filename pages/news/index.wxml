@@ -23,7 +23,7 @@
     </view>
     <view class="list">
       <block wx:for="{{list}}" wx:key="{{index}}" wx:for-item="item">
-        <view class="pro">
+        <view class="pro" bindtap="showNewInfo" data-index="{{index}}">
           <image src="{{item.image}}" class="new_img"></image>
           <view class="text">
             <text class="text_tit">{{item.title}}</text>

@@ -1,5 +1,5 @@
 const app = getApp()
-import list from './data.js'
+import list from '../../utils/data.js'
 Page({
   data: {
     page: 0,
@@ -61,6 +61,12 @@ Page({
         })
         resolve();
       }, 500)
+    })
+  },
+  showNewInfo(e){
+    const index = e.currentTarget.dataset.index;
+    wx.navigateTo({
+      url:'/pages/showNew/index?id=' + index
     })
   }
 })

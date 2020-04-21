@@ -70,13 +70,21 @@
   display:block;
   font-size:24rpx;
   line-height:24rpx;
+  height:24rpx;
+  width:450rpx;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .text .text_con{
   margin-top:6rpx;
   display:block;
   font-size:20rpx;
   line-height:26rpx;
-  text-indent: 14rpx;
+  text-indent: 26rpx;
+  height:78rpx;
+  text-overflow:ellipsis; 
+  overflow: hidden;
 }
 .yad{
   display:flex;

@@ -1,0 +1,5 @@
+<view class="showNew">
+  <text class="tit">{{title}}</text>
+  <text class="time">发布时间：{{year}}.{{time}}</text>
+  <image class="img" src="{{newsInfo}}" mode="widthFix"></image>
+</view>
