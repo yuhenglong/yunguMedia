@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText":"云股传媒",
-  "usingComponents": {}
+  "usingComponents": {
+    "nyz_area_picker": "../../Component/nyz_area_picker/nyz_area_picker"
+  }
 }

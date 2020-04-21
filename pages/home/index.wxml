@@ -45,13 +45,21 @@
     <text class="input_text">电话：</text>
     <input class="ib_inp" placeholder="您的电话" placeholder-class="ib_inp_p"></input>
   </view>
-   <view class="input_box">
-    <!-- <text class="star" style="color:#F7F7F7">*</text> -->
-    <text class="input_text">所在地区：</text>
-    <input class="ib_inp" placeholder="所在城市" placeholder-class="ib_inp_p"></input>
-  </view>
+
+    <!-- 三级省市联动start -->
+    <view bindtap='chooseAddress' class="input_box place">
+      <text class="star">*</text>
+      <text class="input_text">所在地区：</text>
+      <text>{{province == ''?'点我选择地区':province + ' ' + city + ' ' + area}}</text>
+    </view>
+    <nyz_area_picker
+      show="{{show}}"
+      bind:sureSelectArea="sureSelectAreaListener"
+    >
+    </nyz_area_picker>
+    <!-- 三级省市联动end -->
   <view class="area_box">
-    <!-- <text class="star" style="color:#F7F7F7">*</text> -->
+    <text class="star area_start">*</text>
     <text class="input_text">留言备注：</text>
     <textarea placeholder="欢迎您的留言" placeholder-class="ib_area" class="tarea"></textarea>
   </view>

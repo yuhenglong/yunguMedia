@@ -107,12 +107,14 @@
   background-color: #F7F7F7;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:flex-start;
 }
 .star{
   color:red;
   padding-top:10rpx;
   padding-right:5rpx;
+  padding-left:25rpx;
+  display: block;
 }
 .input_text{
   font-size:30rpx;
@@ -123,8 +125,7 @@
   text-align: right;
 }
 .ib_inp{
-  /* background-color: #fff; */
-  width:300rpx;
+  /* width:300rpx; */
 }
 .ib_inp_p{
   color:#B3B2B2;
@@ -144,7 +145,10 @@
   background-color: #F7F7F7;
   display: flex;
   align-items: flex-start;
-  justify-content:center;
+  justify-content:flex-start;
+}
+.area_start{
+  color:#F7F7F7;
 }
 .tarea{
   width:300rpx;
@@ -224,5 +228,11 @@
 .container{
   width:100%;
   height:auto;
+}
+.place .star{
+  color:#F7F7F7;
+}
+.btn_box .btn_hover{
+  background-color: rgba(250, 117, 28, 0.904);
 }
 /* 恒隆 */

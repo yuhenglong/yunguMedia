@@ -31,7 +31,7 @@
         "pagePath": "pages/classify/index",
         "iconPath": "image/classify.png",
         "selectedIconPath": "image/classify-hl.png",
-        "text": "分类"
+        "text": "案例"
       },
       {
         "pagePath": "pages/news/index",

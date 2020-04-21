@@ -16,6 +16,10 @@ Page({
     autoplay: true,
     interval:3000,
     duration: 500,
+    province:'',
+    city:'',
+    area:'',
+    show:false
   },
 
   /**
@@ -101,5 +105,21 @@ Page({
         scrollTop: rect.height
       })
     }).exec()
+  },
+  sureSelectAreaListener:function(e){
+    var that = this;
+    that.setData({
+      show: false,
+      province: e.detail.currentTarget.dataset.province,
+      city: e.detail.currentTarget.dataset.city,
+      area: e.detail.currentTarget.dataset.area
+    })
+  },
+  chooseAddress:function(){
+    console.log("xuanzedizhi")
+    var that = this;
+    that.setData({
+      show:true
+    })
   }
 })

@@ -5,7 +5,7 @@
   <view class='userinfo'>
     <block wx:if="{{!hasUserInfo && canIUse}}">
       <image src="/image/head.png" class="head"></image>
-      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="hq"> 获取头像昵称 </button>
+      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="hq" hover-class="hv_hq"> 获取头像昵称 </button>
     </block>
     <block wx:else>
       <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>

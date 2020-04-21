@@ -39,7 +39,6 @@
 }
 .hq{
   font-size:30rpx;
-  /* line-height:35rpx; */
   border-radius: 15rpx;
   border:2rpx solid #ff751d;
   color:#ff751d;
@@ -84,4 +83,8 @@
   height:311rpx;
   background-color: #eee;
   z-index:99;
+}
+.userinfo .hv_hq{
+  border:2rpx solid #eee;
+  background-color: #eee;
 }
