@@ -125,7 +125,8 @@
   text-align: right;
 }
 .ib_inp{
-  /* width:300rpx; */
+  font-size:30rpx;
+  line-height:60rpx;
 }
 .ib_inp_p{
   color:#B3B2B2;
@@ -135,7 +136,9 @@
 .ib_area{
   color:#B3B2B2;
   font-size:30rpx;
-  line-height:30rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+  padding-top:15rpx;
 }
 .area_box{
   margin-top:20rpx;
@@ -151,8 +154,8 @@
   color:#F7F7F7;
 }
 .tarea{
-  width:300rpx;
-  height:100rpx;
+  width:400rpx;
+  height:180rpx;
   font-size:30rpx;
   line-height:30rpx;
 }

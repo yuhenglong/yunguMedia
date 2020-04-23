@@ -1,3 +1,4 @@
+
 .userinfo {
   width:100%;
   height:350rpx;
@@ -53,6 +54,7 @@
   width:690rpx;
 }
 .container{
+  height:100%;
   background-color: #eee;
 }
 .youhui{

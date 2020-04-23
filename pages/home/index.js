@@ -19,7 +19,11 @@ Page({
     province:'',
     city:'',
     area:'',
-    show:false
+    show:false,
+    name:'',
+    phone:'',
+    city:'',
+    message:''
   },
 
   /**
@@ -121,5 +125,63 @@ Page({
     that.setData({
       show:true
     })
+  },
+  checkPhone(e){
+    let phone = e.detail.value;
+    let regPho = /^1[34578]\d{9}$/;
+    console.log(phone);
+    if(!phone){
+      wx.showModal({
+        title: '提示',
+        content: '请输入手机号',
+        showCancel: false,
+      })
+    }else if(!regPho.test(phone)){
+      wx.showModal({
+        title: '提示',
+        content: '请填写正确手机号',
+        showCancel: false,
+      })
+    }else{
+      this.setData({
+        phone:phone
+      })
+    }
+  },
+  checkName(e){
+    let name = e.detail.value;
+    if(!name){
+      wx.showModal({
+        title: '提示',
+        content: '请输入姓名',
+        showCancel: false,
+      })
+    }else{
+      this.setData({
+        name:name
+      })
+    }
+  },
+  getInput(e){
+    let that = this;
+    that.setData({
+      message:e.detail.value
+    })
+  },
+  connectUs(){
+    if(this.data.name && this.data.phone){
+      console.log(this.data.name);
+      console.log(this.data.phone);
+      console.log(this.data.province);
+      console.log(this.data.city);
+      console.log(this.data.area);
+      console.log(this.data.message)
+    }else{
+      wx.showModal({
+        title: '提示',
+        content: '请输入必填信息',
+        showCancel: false,
+      })
+    }
   }
 })

@@ -17,7 +17,6 @@ Page({
    */
   onLoad: function (options) {
     const id = options.id;
-    console.log(list[id]);
     this.setData({
       title:list[id].title,
       time:list[id].date,
