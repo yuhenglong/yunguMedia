@@ -22,7 +22,6 @@ Page({
     show:false,
     name:'',
     phone:'',
-    city:'',
     message:''
   },
 
@@ -175,7 +174,20 @@ Page({
       console.log(this.data.province);
       console.log(this.data.city);
       console.log(this.data.area);
-      console.log(this.data.message)
+      console.log(this.data.message);
+      wx.showModal({
+        title: '提示',
+        content: '提交成功，稍后将有专人为您来电',
+        showCancel: false,
+      });
+      this.setData({
+        name:'',
+        phone:'',
+        province:'',
+        city:'',
+        area:'',
+        message:''
+      })
     }else{
       wx.showModal({
         title: '提示',

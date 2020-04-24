@@ -206,7 +206,7 @@
 }
 .posi{
   position: fixed;
-  top:80%;
+  top:70%;
   right:20rpx;
   border-radius: 50%;
   background-color: rgba(250, 117, 28, 0.904);
