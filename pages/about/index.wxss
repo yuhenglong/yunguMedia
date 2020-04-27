@@ -1,1 +1,127 @@
-/* pages/about/index.wxss */
+.about{
+  background-color: #fff;
+  width:100%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img_abo{
+  width:100%;
+}
+.con_box{
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ab_text{
+  font-size:34rpx;
+  line-height: 34rpx;
+  color:#333;
+  margin-top:30rpx;
+}
+.lc{
+  width:30rpx;
+  height:3rpx;
+  background-color:#ff751d;
+  margin:20rpx 0;
+}
+.tt{
+  font-size:26rpx;
+  line-height:32rpx;
+  color:#333;
+  text-indent: 30rpx;
+}
+.ii{
+  margin:20rpx 0 0;
+}
+.cicle{
+  width:180rpx;
+  height:180rpx;
+  border-radius:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:3rpx solid rgba(255, 255, 255, 1);
+  box-shadow:1rpx 8rpx 13rpx 0rpx rgba(7,1,2,0.22);
+}
+.ncic{
+  width:170rpx;
+  height:170rpx;
+  border-radius:50%;
+  background-color:#F6721A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wen{
+  color:#fff;
+  font-size:34rpx;
+  line-height: 50rpx;
+  width: 80rpx;
+  height:auto;
+  text-align: center;
+}
+.c_box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  height:auto;
+  margin-top:30rpx;
+}
+.jia{
+  width:35rpx;
+  height:auto;
+}
+.zsj{
+  color:#4D4D4D;
+  font-size:28rpx;
+  line-height:28rpx;
+}
+.sanjia{
+  width:25rpx;
+}
+.classify{
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin:10rpx 0 50rpx;
+}
+.cla_li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 6rpx solid #FF751D;
+  border-radius: 15rpx;
+  width:190rpx;
+  padding:30rpx 10rpx;
+  height:380rpx;
+}
+.li_one{
+  width:160rpx;
+  height:160rpx;
+}
+.t_one{
+  font-size:28rpx;
+  line-height:28rpx;
+  font-weight: bold;
+  margin:20rpx 0 10rpx;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.t_two{
+  font-size:20rpx;
+  line-height:28rpx;
+  margin:10rpx 0;
+}

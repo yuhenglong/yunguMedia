@@ -1,2 +1,56 @@
-<!--pages/about/index.wxml-->
-<text>pages/about/index.wxml</text>
+<view class="about">
+  <image src="/image/about.png" class="img_abo" mode="widthFix"></image>
+  <!-- <view class="con_box">
+    <text class="ab_text">关于云股</text>
+    <view class="lc"></view>
+    <view class="tt">云股传媒布局全国，率先在全国重点城市广州、上海、深圳、成都等地推广3D广告并取得良好的成绩。</view>
+    <image src="/image/fazhan.png" class="img_abo ii" mode="widthFix"></image>
+    <text class="ab_text">发展前景</text>
+    <view class="lc"></view>
+    <view class="tt">填补国内3D广告的空白，凭借独特的3D裸眼技术将会在国内闯出一片蓝海。</view>
+    <image src="/image/wlai.png" class="img_abo ii" mode="widthFix"></image>
+    <text class="ab_text">媒体形式</text>
+    <view class="lc"></view>
+    <text class="zsj">震撼视觉效果 + 视觉新型效果 + 精准定位</text>
+    <view class="c_box">
+      <view class="cicle">
+        <view class="ncic">
+          <view class="wen">裸眼3D</view>
+        </view>
+      </view>
+      <image src="/image/jia.png" class="jia" mode="widthFix"></image>
+      <view class="cicle">
+        <view class="ncic">
+          <view class="wen">人脸识别</view>
+        </view>
+      </view>
+      <image src="/image/jia.png" class="jia" mode="widthFix"></image>
+      <view class="cicle">
+        <view class="ncic">
+          <view class="wen">新生梯媒</view>
+        </view>
+      </view>
+    </view>
+    <view style="margin-top:10rpx;"><image src="/image/sanjiao.png" class="sanjia" mode="widthFix"></image></view>
+    <view class="classify">
+      <view class="cla_li">
+        <image src="/image/list_one.png" class="li_one"></image>
+        <text class="t_one">聚焦商业体</text>
+        <text class="t_two">注重中高端家庭，白领、金领人士</text>
+        <text class="t_two">全国终端日均人流量过百万</text>
+      </view>
+      <view class="cla_li">
+        <image src="/image/list_two.png" class="li_one"></image>
+        <text class="t_one">裸眼3D梯</text>
+        <text class="t_two">弥补传统2D广告痛点</text>
+        <text class="t_two">成倍提高广告吸引力，让效果翻倍</text>
+      </view>
+      <view class="cla_li">
+        <image src="/image/list_thr.png" class="li_one"></image>
+        <text class="t_one">智能大数据</text>
+        <text class="t_two">通过大数据筛选，客户可自定义上刊</text>
+        <text class="t_two">后台安全智能服务器，随时智能上刊</text>
+      </view>
+    </view>
+  </view> -->
+</view>
