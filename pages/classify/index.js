@@ -111,7 +111,6 @@ Page({
 	},
   // 下拉加载更多
 	onReachBottom: function () {
-    console.log("大肥猪")
 		if (!this.data.isLoadedAll) {
 			this.data.pageIndex++;
 		}
