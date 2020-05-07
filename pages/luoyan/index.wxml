@@ -1,2 +1,8 @@
-<!--pages/luoyan/index.wxml-->
-<text>pages/luoyan/index.wxml</text>
+<view class="luoyan">
+  <image src="/image/luoyan.png" class="img_ly" mode="widthFix"></image>
+  <view class="con_box">
+    <text class="ly_text">受众人群</text>
+    <view class="lc"></view>
+    
+  </view>
+</view>

@@ -8,7 +8,8 @@
     "pages/luoyan/index",
     "pages/infoSave/index",
     "pages/face/index",
-    "pages/showNew/index"
+    "pages/showNew/index",
+    "pages/category/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,6 +28,12 @@
         "iconPath": "image/home.png",
         "selectedIconPath": "image/home-hl.png",
         "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "image/category.png",
+        "selectedIconPath": "image/category-hl.png",
+        "text": "架构"
       },
       {
         "pagePath": "pages/classify/index",

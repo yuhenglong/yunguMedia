@@ -1,1 +1,32 @@
 /* pages/luoyan/index.wxss */
+.luoyan{
+  background-color: #fff;
+  width:100%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img_ly{
+  width:100%;
+}
+.con_box{
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ly_text{
+  font-size:34rpx;
+  line-height: 34rpx;
+  color:#333;
+  margin-top:30rpx;
+}
+.lc{
+  width:30rpx;
+  height:3rpx;
+  background-color:#ff751d;
+  margin:20rpx 0;
+}
