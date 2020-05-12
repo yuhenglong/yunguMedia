@@ -1,8 +1,66 @@
 <view class="luoyan">
   <image src="/image/luoyan.png" class="img_ly" mode="widthFix"></image>
   <view class="con_box">
+    <text class="ly_text">裸眼3D优势</text>
+    <view class="lc"></view>
+    <view class="ly_ad">
+      <view class="ad_box">
+        <image src="/image/sb.png" mode="widthFix" class="ad_img"></image>
+        <text class="ad_t">无需穿戴设备，裸眼观看更直观</text>
+      </view>
+      <view class="ad_box">
+        <image src="/image/hb.png" mode="widthFix" class="ad_img"></image>
+        <text class="ad_t">宣传回报率是2D广告7倍以上</text>
+      </view>
+      <view class="ad_box">
+        <image src="/image/jy.png" mode="widthFix" class="ad_img"></image>
+        <text class="ad_t">记忆度是2D广告4倍以上</text>
+      </view>
+    </view>
     <text class="ly_text">受众人群</text>
     <view class="lc"></view>
-    
+    <view class="rq_box">
+      <view class="rq_lt">
+        <text class="title">收入分析</text>
+        <view class="img_box_lt">
+          <image src="/image/charts-2.png" class="rq_img" mode="widthFix"></image>
+        </view>
+        <text class="rq_t">75%的人拥有4K以上月收入,具备较高消费能力与消费欲望</text>
+      </view>
+      <view class="rq_rt">
+        <text class="title">职业构成</text>
+        <view class="img_box_rt">
+          <image src="/image/charts-1.png" class="rq_img" mode="widthFix"></image>
+        </view>
+        <text class="rq_t">64.9%的受众为白领、事业管理层及社会中坚力量，具备高品质生活追求。</text>
+      </view>
+    </view>
+    <text class="ly_text">项目优势</text>
+    <view class="lc"></view>
+    <view class="ly_ys">
+      <view class="ys_box">
+        <view class="ys_i_b">
+          <image src="/image/ysbj.png" mode="widthFix" class="ys_img"></image>
+          <text class="ys_i_t">高到达率</text>
+        </view>
+        <text class="ys_t">电梯时间强制性视觉接触，吸引力强</text>
+      </view>
+      <view class="ys_box">
+        <view class="ys_i_b">
+          <image src="/image/ysbj.png" mode="widthFix" class="ys_img"></image>
+          <text class="ys_i_t">裸眼技术</text>
+        </view>
+        <text class="ys_t">新颖裸眼技术让广告具有3D立体感</text>
+      
+      </view>
+      <view class="ys_box">
+        <view class="ys_i_b">
+          <image src="/image/ysbj.png" mode="widthFix" class="ys_img"></image>
+          <text class="ys_i_t">人脸识别</text>
+        </view>
+        <text class="ys_t">设备的人脸识别，会细致分析客户大数据</text>
+      </view>
+    </view>
   </view>
+
 </view>

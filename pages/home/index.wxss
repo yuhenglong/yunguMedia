@@ -220,12 +220,10 @@
 }
 .posi .wylx{
   width:60rpx;
-  height:60rpx;
   text-align: center;
   display: block;
   font-size:30rpx;
-  height:30rpx;
-  margin:5rpx 0;
+  height:40rpx;
   color:#fff;
 }
 .container{
@@ -237,5 +235,9 @@
 }
 .btn_box .btn_hover{
   background-color: rgba(250, 117, 28, 0.904);
+}
+.fs{
+  font-size:30rpx;
+  line-height:30rpx;
 }
 /* 恒隆 */

@@ -50,7 +50,7 @@
     <view bindtap='chooseAddress' class="input_box place">
       <text class="star">*</text>
       <text class="input_text">所在地区：</text>
-      <text>{{province == ''?'点我选择地区':province + ' ' + city + ' ' + area}}</text>
+      <text class="fs">{{province == ''?'点我选择地区':province + ' ' + city + ' ' + area}}</text>
     </view>
     <nyz_area_picker
       show="{{show}}"
