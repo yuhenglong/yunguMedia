@@ -16,10 +16,44 @@
 <view wx:if="{{loginOut}}" class="lo">
   <button class="lo_btn" bindtap="loginOut">退出登录</button>
 </view>
+
+<view class="li_h"></view>
+<view class="xgbb">
+  <view class="lxg">
+    <text class="xgxx">云股相关</text>
+  </view>
+</view>
+<!-- 百度地图 -->
+<view class="map">
+  <view class="map_b">
+    <text class="map_tt">云股全国点位图</text>
+    <navigator url="/pages/BMap/index" class="nav_m">></navigator>
+  </view>
+</view>
+<view class="l_box">
+  <view class="line_h"></view>
+</view>
+<view class="map">
+  <view class="map_b" catchtap="showAddress">
+    <text class="map_tt">云股总部地址</text>
+    <text class="nav_m {{showaddress?'cl':'uncl'}}">></text>
+  </view>
+</view>
+<view class="l_box" wx:if="{{showaddress}}">
+  <view class="line_h"></view>
+</view>
+<view class="map" wx:if="{{showaddress}}">
+  <view class="map_b">
+    <text class="map_tt">广州市南沙区南沙街进港大道8号1902房</text>
+  </view>
+</view>
+<!-- 地址 -->
+
 <view class="youhui">
   <label for="sbtn" class="lab">
     <image src="/image/youhui.png" class="yhh"></image>
   </label>
   <button open-type="share" class="sbtn" id="sbtn"></button>
 </view>
+
 </view>

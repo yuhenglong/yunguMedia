@@ -9,7 +9,8 @@
     "pages/infoSave/index",
     "pages/face/index",
     "pages/showNew/index",
-    "pages/category/index"
+    "pages/category/index",
+    "pages/BMap/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

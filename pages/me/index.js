@@ -11,7 +11,8 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    loginOut:false
+    loginOut:false,
+    showaddress:false
   },
 
   /**
@@ -64,6 +65,18 @@ Page({
       loginOut:false
     })
     wx.reLaunch({url:"/pages/me/index"})
+  },
+  // 折叠面板
+  showAddress(){
+    if(this.data.showaddress){
+      this.setData({
+        showaddress:false
+      })
+    }else{
+      this.setData({
+        showaddress:true
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

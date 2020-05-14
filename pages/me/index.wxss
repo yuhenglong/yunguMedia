@@ -45,17 +45,18 @@
   color:#ff751d;
   margin-top:25rpx;
 }
-
 .lo .lo_btn{
-  color: #666;
+  background-color: #fff;
+  color: #ff751d;
   margin-top:20rpx;
   font-size:30rpx;
   line-height:50rpx;
   width:690rpx;
+  border: 2rpx solid #ff751d;
 }
 .container{
   height:100%;
-  background-color: #eee;
+  background-color: #f7f8fa;
 }
 .youhui{
   width:100%;
@@ -89,4 +90,74 @@
 .userinfo .hv_hq{
   border:2rpx solid #eee;
   background-color: #eee;
+}
+.xgbb{
+  width:100%;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:20rpx 0;
+}
+.lxg{
+  width:90%;
+  height: 50rpx;
+}
+.xgxx{
+  font-size:34rpx;
+  line-height: 50rpx; 
+}
+.map{
+  background-color: #fff;
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map_b{
+  width: 90%;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin:20rpx 0;
+}
+.map_tt{
+  font-size:30rpx;
+  line-height:50rpx;
+}
+.nav_m{
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  font-size: 50rpx;
+  line-height: 50rpx;
+  color: #9699a6;
+}
+.l_box{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.line_h{
+  width: 90%;
+  height: 2rpx;
+  background-color: #f5f6f8;
+}
+.uncl{
+  transform:rotate(0);
+  transition: all 0.4;
+}
+.cl{
+  transform:rotate(-90deg);
+  transition: all 0.4;
+}
+.li_h{
+  width:100%;
+  height:2rpx;
+  background-color:#fff;
+  margin-top:25rpx;
 }

@@ -1,0 +1,2 @@
+<!--pages/BMap/index.wxml-->
+<web-view src="https://www.longjinph.com/test/baiduMap_yungu/mapCollect.html">云股点位地图</web-view>
