@@ -6,21 +6,33 @@
       </view>
     </block>
   </scroll-view>
-  <scroll-view class='nav_right' scroll-y>
-      <view wx:if='{navRightItems[curIndex]' style='padding-bottom: 10px;'>
-      <block wx:for="{{navRightItems[curIndex]}}" wx:for-item="item">
-        <view class='jd-category'>
-          <view class='title'>{{item.title}}</view>
-          <view class='jd-category-wrap'>
-            <block wx:for="{{item.desc}}" wx:for-item="list">
-              <view class='jd-category-style' data-txt="{{list.text}}" bindtap='showListView'>
-                <image class='list_img' src='{{list.img}}'></image>
-                <text class='list_text'>{{list.text}}</text>
-              </view>
-            </block>
-          </view>
-        </view>
-      </block>
+  <scroll-view class='nav_right' scroll-y style="background-color:pink;">
+    <view class="hq" wx:if="{{curIndex == 0}}">
+      我是总部
+    </view>
+    <view class="hq" wx:if="{{curIndex == 1}}">
+      我是广州云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 2}}">
+      我是成都云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 3}}">
+      我是深圳云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 4}}">
+      我是中山云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 5}}">
+      我是泸州云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 6}}">
+      我是武汉云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 7}}">
+      我是江门云股
+    </view>
+    <view class="hq" wx:if="{{curIndex == 8}}">
+      我是天门云股
     </view>
   </scroll-view>
 </view>

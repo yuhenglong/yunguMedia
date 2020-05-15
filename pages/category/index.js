@@ -8,11 +8,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    navLeftItems: ['广州云股','成都云股','深圳云股','中山云股','泸州云股','武汉云股'],
-    navRightItems: [],
+    navLeftItems: ['云股总部','广州云股','成都云股','深圳云股','中山云股','泸州云股','武汉云股','江门云股','天门公司'],
     curIndex: 0,
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -44,14 +42,4 @@ Page({
       curIndex: index
     })
   },
-  /**
-   * 点击进入列表页
-   * 列表页参数 title
-  */
-  showListView(e) {
-    let txt = e.currentTarget.dataset.txt
-    wx.navigateTo({
-      url: '/pages/list/index?title=' + txt
-    })
-  }
 })

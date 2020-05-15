@@ -1,2 +1,14 @@
-<!--pages/face/index.wxml-->
-<text>pages/face/index.wxml</text>
+<view class="face">
+  <image src="/image/face_bj.png" class="img_fa" mode="widthFix"></image>
+  <view class="con_box">
+    <text class="fa_text">人脸识别</text>
+    <view class="lc"></view>
+    <text class="face_text">人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行识别，通常也叫做人像识别、面部识别。</text>
+    <image src="/image/lct.png" class="lct" mode="widthFix"></image>
+    <image src="/image/face_t.png" class="face_t" mode="widthFix"></image>
+    <text class="fa_text">对广告影响</text>
+    <view class="lc"></view>
+    <text class="face_text">这种功能不仅仅是对驻足观看广告的人有效，即便是匆匆路过的行人，只要他扫了广告牌一眼，他的面部数据同样会被储存与存与分析，而这些珍贵的信息则成为公司制定下一个市场营销策略。</text>
+    <image src="/image/sg.png" class="sg" mode="widthFix"></image>
+  </view>
+</view>

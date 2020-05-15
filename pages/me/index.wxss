@@ -66,7 +66,7 @@
   align-items: center;
   justify-content: center;
   margin-top:20rpx;
-  background-color: #eee;
+  background-color: #f7f8fa;
   position: relative;
 }
 .youhui .yhh{
@@ -79,12 +79,12 @@
   top:50%;
   left:50%;
   z-index:-1;
-  background-color: #eee;
+  background-color: #f7f8fa;
 }
 .lab{
   width:690rpx;
   height:311rpx;
-  background-color: #eee;
+  background-color: #f7f8fa;
   z-index:99;
 }
 .userinfo .hv_hq{
@@ -102,6 +102,10 @@
 .lxg{
   width:90%;
   height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
 }
 .xgxx{
   font-size:34rpx;
@@ -119,6 +123,7 @@
   width: 90%;
   height: 50rpx;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-direction: row;
   margin:20rpx 0;
@@ -128,12 +133,7 @@
   line-height:50rpx;
 }
 .nav_m{
-  width: 50rpx;
-  height: 50rpx;
-  text-align: center;
-  font-size: 50rpx;
-  line-height: 50rpx;
-  color: #9699a6;
+  width: 35rpx;
 }
 .l_box{
   width:100%;
@@ -147,17 +147,18 @@
   height: 2rpx;
   background-color: #f5f6f8;
 }
-.uncl{
-  transform:rotate(0);
-  transition: all 0.4;
-}
-.cl{
-  transform:rotate(-90deg);
-  transition: all 0.4;
-}
 .li_h{
   width:100%;
   height:2rpx;
   background-color:#fff;
   margin-top:25rpx;
+}
+.tran{
+  transform:rotate(90deg);
+}
+.mar_l{
+  margin-left:30rpx;
+}
+.cmei{
+  width: 40rpx;
 }

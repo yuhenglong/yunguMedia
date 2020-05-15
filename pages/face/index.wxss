@@ -1,1 +1,45 @@
 /* pages/face/index.wxss */
+.face{
+  background-color: #fff;
+  width:100%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img_fa{
+  width:100%;
+}
+.con_box{
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom:50rpx;
+}
+.fa_text{
+  font-size:34rpx;
+  line-height: 34rpx;
+  color:#333;
+  margin-top:30rpx;
+}
+.lc{
+  width:30rpx;
+  height:3rpx;
+  background-color:#ff751d;
+  margin:20rpx 0;
+}
+.face_text{
+  font-size:24rpx;
+  line-height: 30rpx;
+  text-indent: 30rpx;
+}
+.sg{
+  margin-top:20rpx;
+  width:100%;
+}
+.lct{
+  margin:20rpx 0 10rpx;
+}

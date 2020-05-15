@@ -17,17 +17,18 @@
   <button class="lo_btn" bindtap="loginOut">退出登录</button>
 </view>
 
-<view class="li_h"></view>
+<view class="li_h" wx:if="{{loginOut}}"></view>
 <view class="xgbb">
   <view class="lxg">
+    <image src="/image/cmei.png" class="cmei" mode="widthFix"></image>
     <text class="xgxx">云股相关</text>
   </view>
 </view>
 <!-- 百度地图 -->
 <view class="map">
-  <view class="map_b">
+  <view class="map_b" catchtap="linkTo">
     <text class="map_tt">云股全国点位图</text>
-    <navigator url="/pages/BMap/index" class="nav_m">></navigator>
+    <image src="/image/up.png" class="nav_m tran" mode="widthFix"></image>
   </view>
 </view>
 <view class="l_box">
@@ -36,18 +37,18 @@
 <view class="map">
   <view class="map_b" catchtap="showAddress">
     <text class="map_tt">云股总部地址</text>
-    <text class="nav_m {{showaddress?'cl':'uncl'}}">></text>
+    <image src="/image/{{showaddress?'up':'slide'}}.png" class="nav_m" mode="widthFix"></image>
   </view>
 </view>
+<!-- 地址 -->
 <view class="l_box" wx:if="{{showaddress}}">
   <view class="line_h"></view>
 </view>
 <view class="map" wx:if="{{showaddress}}">
-  <view class="map_b">
-    <text class="map_tt">广州市南沙区南沙街进港大道8号1902房</text>
+  <view class="map_b mar_l">
+    <text class="map_tt">广东省广州市南沙区南沙街进港大道8号1902房</text>
   </view>
 </view>
-<!-- 地址 -->
 
 <view class="youhui">
   <label for="sbtn" class="lab">
