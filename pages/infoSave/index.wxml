@@ -1,5 +1,5 @@
 <view class="infoSave">
-  <image src="/image/infosave.png" class="img_is" mode="widthFix"></image>
+  <image src="https://www.longjinph.com/test/wx/image/infosave.png" class="img_is" mode="widthFix"></image>
   <view class="con_box">
     <text class="is_text">信息安全</text>
     <view class="lc"></view>

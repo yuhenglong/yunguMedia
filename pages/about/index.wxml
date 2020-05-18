@@ -1,10 +1,10 @@
 <view class="about">
-  <image src="/image/about.png" class="img_abo" mode="widthFix"></image>
+  <image src="https://www.longjinph.com/test/wx/image/about.png" class="img_abo" mode="widthFix"></image>
   <view class="con_box">
     <text class="ab_text">关于云股</text>
     <view class="lc"></view>
     <view class="tt">云股传媒布局全国，率先在全国重点城市广州、上海、深圳、成都等地推广3D广告并取得良好的成绩。</view>
-    <image src="/image/fazhan.png" class="img_abo ii" mode="widthFix"></image>
+    <image src="https://www.longjinph.com/test/wx/image/fazhan.png" class="img_abo ii" mode="widthFix"></image>
     <text class="ab_text">发展前景</text>
     <view class="lc"></view>
     <view class="tt">填补国内3D广告的空白，凭借独特的3D裸眼技术将会在国内闯出一片蓝海。</view>

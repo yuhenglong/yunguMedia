@@ -1,5 +1,5 @@
 <view class="luoyan">
-  <image src="/image/luoyan.png" class="img_ly" mode="widthFix"></image>
+  <image src="https://www.longjinph.com/test/wx/image/luoyan.png" class="img_ly" mode="widthFix"></image>
   <view class="con_box">
     <text class="ly_text">裸眼3D优势</text>
     <view class="lc"></view>
