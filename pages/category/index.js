@@ -10,6 +10,8 @@ Page({
   data: {
     navLeftItems: ['云股总部','广州云股','成都云股','深圳云股','中山云股','泸州云股','武汉云股','江门云股','天门公司'],
     curIndex: 0,
+    cityTitle:'广州云股',
+    pointLocation:[{image:'https://www.longjinph.com/test/wx/zgs/guangzhou/1.png',title:'富力海珠城'},{image:'https://www.longjinph.com/test/wx/zgs/guangzhou/2.png',title:'海印又一城'},{image:'https://www.longjinph.com/test/wx/zgs/guangzhou/3.png',title:'五号停机坪'},{image:'https://www.longjinph.com/test/wx/zgs/guangzhou/4.png',title:'万科里'},]
   },
   /**
    * 生命周期函数--监听页面加载

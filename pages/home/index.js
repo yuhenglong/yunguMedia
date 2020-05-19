@@ -177,7 +177,7 @@ Page({
       console.log(this.data.message);
       wx.showModal({
         title: '提示',
-        content: '提交成功，稍后将有专人为您来电',
+        content: '提交成功，稍后将有专员为您来电!',
         showCancel: false,
       });
       this.setData({

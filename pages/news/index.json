@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "component-scroll": "../Component/component-scroll/index"
+    "component-scroll": "/Component/component-scroll/index"
   },
   "navigationBarTitleText":"新闻动态"
 }
