@@ -1,8 +1,8 @@
-const domain = 'https://enigmatic-island-47099.herokuapp.com'; 
+const domain = 'https://www.longjinph.com'; 
 
 const interfaces = {
-  // 返回的首页请求的json数据
-  homepage: domain + '/api/profiles/homepage',
+  // 发送的客户信息的json数据
+  sendEmail: domain + '/xapi/sendEmail',
   
   // 返回的商品的json数据
   productions: domain + '/api/profiles/productions',

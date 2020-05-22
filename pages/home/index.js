@@ -1,6 +1,7 @@
 // pages/home/index.js
+// 引入接口配置文件urlconfig
+const interfaces = require('../../utils/urlconfig.js');
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -169,25 +170,51 @@ Page({
   },
   connectUs(){
     if(this.data.name && this.data.phone){
-      console.log(this.data.name);
-      console.log(this.data.phone);
-      console.log(this.data.province);
-      console.log(this.data.city);
-      console.log(this.data.area);
-      console.log(this.data.message);
-      wx.showModal({
-        title: '提示',
-        content: '提交成功，稍后将有专员为您来电!',
-        showCancel: false,
-      });
-      this.setData({
-        name:'',
-        phone:'',
-        province:'',
-        city:'',
-        area:'',
-        message:''
+      // console.log(this.data.name);
+      // console.log(this.data.phone);
+      // console.log(this.data.province);
+      // console.log(this.data.city);
+      // console.log(this.data.area);
+      // console.log(this.data.message);
+      const self = this;
+      const sendData = {
+        username : this.data.name,
+        phone : this.data.phone,
+        adress : this.data.province + this.data.city + this.data.area,
+        message : this.data.message,
+      };
+      wx.request({
+        url: interfaces.sendEmail,
+        method: "POST",
+        data: sendData,
+        header: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        success:function(res){
+          if(res.statusCode ==200){
+            wx.showModal({
+              title: '提示',
+              content: '提交成功，稍后将有专员为您来电!',
+              showCancel: false,
+            });
+            self.setData({
+              name:'',
+              phone:'',
+              province:'',
+              city:'',
+              area:'',
+              message:''
+            })
+          }else{
+            wx.showModal({
+              title: '提示',
+              content: '信息提交失败，请再试！',
+              showCancel: false,
+            });
+          }
+        }
       })
+      
     }else{
       wx.showModal({
         title: '提示',
