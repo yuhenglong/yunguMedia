@@ -4,8 +4,8 @@ const interfaces = {
   // 发送的客户信息的json数据
   sendEmail: domain + '/xapi/sendEmail',
   
-  // 返回的商品的json数据
-  productions: domain + '/api/profiles/productions',
+  // 公司架构数据
+  getCompanyData: domain + '/xapi/getCompanyData',
   
   // 返回的商品列表的json数据
   productionsList: domain + '/api/profiles/productionsList',
