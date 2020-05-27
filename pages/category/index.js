@@ -14,7 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const self = this
+    const self = this;
     wx.showLoading({
       title: '加载中...',
     })
@@ -24,7 +24,6 @@ Page({
         'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
       },
       success(res) {
-        console.log(res);
         self.setData({
           navLeftItems: res.data[0].list
           // navRightItems: res.data.navRightItems

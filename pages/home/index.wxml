@@ -1,10 +1,10 @@
 <view class="container" id="home">
-  <scroll-view class="content-scroll" scroll-y="true">
+  <scroll-view class="content-scroll" scroll-y="true" enable-flex="true">
   <!-- 轮播图 -->
   <scroll-view class="contain">
     <view class="indicator-wrap">
       <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" duration="duration" circular="true" indicator-color="rgba(255,255,255,3)" indicator-active-color="#ff751d" style="width:100%;height:325rpx;">
-      <block wx:for="{{swipers}}" wx:key="{{index}}">
+      <block wx:for="{{swipers}}" wx:key="index">
         <swiper-item>
           <image class="swiper-item" src="{{item.image}}" mode="aspectFill"/>
         </swiper-item>
@@ -14,7 +14,7 @@
   </scroll-view>
 <!-- 图片分类 -->
   <view class="big-logo">
-    <block wx:for="{{logos}}" wx:for-item="item" wx:key="{{index}}">
+    <block wx:for="{{logos}}" wx:for-item="item" wx:key="index">
       <view class="logoinfo" bindtap="showPage" data-page="{{item.page}}">
         <image style="width:143rpx;height:100rpx;" src="{{item.image}}" mode="aspectFit"/>
         <text class="logotext">{{item.title}}</text>

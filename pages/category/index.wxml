@@ -1,6 +1,6 @@
 <view class='caregory'>
   <scroll-view class="nav_left" scroll-y>
-    <block wx:for="{{navLeftItems}}">
+    <block wx:for="{{navLeftItems}}" wx:key="index">
       <view class="nav_left_items {{curIndex == index ? 'nav_left_item-active' : ''}}" data-index="{{index}}" bindtap="switchRightTab">
       {{item}}
       </view>

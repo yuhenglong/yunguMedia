@@ -1,10 +1,10 @@
 <view class="services_container">
     <view class='box'>
         <view class='video' hidden="{{currentTabsIndex!=0}}">
-            <block wx:for="{{videoList}}">
+            <block wx:for="{{videoList}}" wx:key="index">
                 <view class='video-item'>
 					<view class='wrapper'>
-						<video class='video-video' wx:if='{{index==videoIndex}}' id='video{{index}}' autoplay='{{true}}' show-center-play-btn="{{false}}" src='{{item.resource_add}}'></video>
+						<video class='video-video' wx:if='{{index==videoIndex}}' id='video{{index}}' autoplay='{{true}}' show-center-play-btn="{{false}}" src='{{item.resourceAdd}}'></video>
 						<image class='video-video2' wx:if='{{index!=videoIndex}}' mode='aspectFill' src='{{item.coverimg}}'></image>
 						<image class='videoPlay' wx:if='{{index!=videoIndex}}' data-index='{{index}}' bindtap='videoPlay' src='/image/play.png'></image>
 					</view>

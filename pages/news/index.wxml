@@ -22,7 +22,7 @@
       <text class="tit_n">云股新闻动态</text>
     </view>
     <view class="list">
-      <block wx:for="{{list}}" wx:key="{{index}}" wx:for-item="item">
+      <block wx:for="{{list}}" wx:key="index" wx:for-item="item">
         <view class="pro" bindtap="showNewInfo" data-index="{{index}}">
           <image src="{{item.image}}" class="new_img"></image>
           <view class="text">
