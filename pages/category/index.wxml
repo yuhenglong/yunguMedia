@@ -19,7 +19,7 @@
         <text class="c_t">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
       </view>
       <view class="tit_box">
-        <text class="tit">广告点位</text>
+        <text class="tit">点位精选</text>
         <view class="lheight"></view>
       </view>
       <view class="city_box dw">
@@ -29,13 +29,31 @@
             <text class="dw_tt">{{item.title}}</text>
           </view>
         </block>
-      </view> 
+      </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 2}}">
       我是成都云股
     </view>
     <view class="hq" wx:if="{{curIndex == 3}}">
-      我是深圳云股
+      <view class="city">{{szTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/shenzhen/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">广州云股传媒坐落于繁华的天河区，邻近广州塔、IFC等著名地标。阡陌交通、车水马龙；商贸往来，络绎不绝，欢迎与您沟通。</text>
+        <text class="c_t">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw">
+        <block wx:for="{{SZpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 4}}">
       我是中山云股
