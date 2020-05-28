@@ -28,7 +28,7 @@
 <view class="map">
   <view class="map_b" catchtap="linkTo">
     <text class="map_tt">云股全国点位图</text>
-    <image src="/image/up.png" class="nav_m tran" mode="widthFix"></image>
+    <image src="/image/slide.png" class="nav_m" mode="widthFix"></image>
   </view>
 </view>
 <view class="l_box">

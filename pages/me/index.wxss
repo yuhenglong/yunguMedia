@@ -153,9 +153,6 @@
   background-color:#fff;
   margin-top:25rpx;
 }
-.tran{
-  transform:rotate(90deg);
-}
 .mar_l{
   margin-left:30rpx;
 }
