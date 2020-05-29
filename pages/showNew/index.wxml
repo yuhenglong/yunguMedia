@@ -1,5 +1,7 @@
 <view class="showNew">
   <text class="tit">{{title}}</text>
   <text class="time">发布时间：{{year}}.{{time}}</text>
-  <image class="img" src="{{newsInfo}}" mode="widthFix"></image>
+  <block wx:for="{{newsInfo}}" wx:key="index">
+    <image class="img" src="{{item}}" mode="widthFix"></image>
+  </block>
 </view>

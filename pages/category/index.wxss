@@ -166,3 +166,7 @@
   background-color:#ff751d;
   margin-top:10rpx;
 }
+.phone{
+  text-align:left;
+  width:100%;
+}

@@ -17,6 +17,7 @@
         <image src="https://www.longjinph.com/test/wx/zgs/guangzhou/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">广州云股传媒坐落于繁华的天河区，邻近广州塔、IFC等著名地标。阡陌交通、车水马龙；商贸往来，络绎不绝，欢迎与您沟通。</text>
         <text class="c_t">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
+        <text class="c_t phone">电话：020-32547597</text>
       </view>
       <view class="tit_box">
         <text class="tit">点位精选</text>
@@ -37,7 +38,8 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/chengdu/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">成都云股位于成都市高新区。成都是一座历史悠久的文化古城，自古以来被誉为“天府之国”。立足成都，是希望展示其深厚的底蕴，弘扬优良文化。</text>
-        <text class="c_t">地址：四川省成都市高新区天府大道中段530号东方希望天祥广场</text>
+        <text class="c_t">地址：四川省成都市高新区天府大道中段530号东方希望天祥广场B座4202</text>
+        <text class="c_t phone">电话：028-65586589</text>
       </view>
       <view class="tit_box">
         <text class="tit">点位精选</text>
@@ -58,7 +60,8 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/shenzhen/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">深圳云股位于深圳市中心福田区，毗邻香港，是珠三角重要的国际大都市。布局深圳，与城市共同发展是云股的初衷。</text>
-        <text class="c_t">地址：深圳市福田区福田街道岗厦社区金田路3038号现代国际703</text>
+        <text class="c_t">地址：深圳市福田区福田街道岗厦社区金田路3038号现代国际大厦7楼703</text>
+        <text class="c_t phone">电话：0755-82780825</text>
       </view>
       <view class="tit_box">
         <text class="tit">点位精选</text>
