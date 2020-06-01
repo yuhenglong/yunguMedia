@@ -1,5 +1,3 @@
-const app = getApp()
-import list from '../../utils/data.js'
 // 引入接口配置文件urlconfig
 const interfaces = require('../../utils/urlconfig.js');
 Page({
@@ -8,13 +6,17 @@ Page({
     size: 10,
     loading: false,
     allloaded: false,
-    list: []
+    list: [],
+    noData:false
   },
+    /**
+   * 生命周期函数--监听页面加载
+   */
   onLoad: function() {
     this.loadData();
   },
+  //请求数据
   loadData:function(){
-    // 接口写在这
     const self = this;
     //加载数据
     wx.showLoading({
@@ -26,68 +28,44 @@ Page({
         'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
       },
       success(res) {
-        console.log("我是大肥猪",res);
+        self.setData({
+          list: res.data.reverse(),
+        })
         wx.hideLoading();
       }
     });
   },
-  onShow() {
-    this.getList();
-  },
-  // 加载更多
-  loadmore({
-    detail
-  }) {
-    this.getList().then(res => {
-      detail.success();
-    });
-  },
-  // 刷新
-  refresh({
-    detail
-  }) {
-    this.setData({
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+    wx.showNavigationBarLoading() //在标题栏中显示加载
+    const self = this;
+    self.setData({
       list: [],
-      loading: false,
-      allloaded: false,
-      page: 0
-    })
-    this.getList().then(res => {
-      detail.success();
+    });
+    wx.request({
+      url: interfaces.getNewsInfo,
+      header: {
+        'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
+      },
+      success(res) {
+        setTimeout(() =>{
+          self.setData({
+            list: res.data.reverse(),
+          });
+          wx.hideNavigationBarLoading() //完成停止加载
+          wx.stopPullDownRefresh() //停止下拉刷新
+        },1000)
+      }
     });
   },
-  getList() {
-    
-    return new Promise((resolve, reject) => {
-      if (this.data.loading || this.data.allloaded) {
-        resolve();
-        return;
-      }
-      this.setData({
-        loading: true
-      })
-      setTimeout(() => {
-        let resData = [].concat(JSON.parse(JSON.stringify(self.list)));
-        let addList = resData.slice(this.data.size * this.data.page, (this.data.page + 1) * this.data.size);
-        let newList = this.data.list.concat(addList)
-        if (addList.length < this.data.size) {
-          this.setData({
-            allloaded: true
-          })
-        }
-        this.setData({
-          list: newList,
-          loading: false,
-          page: this.data.page + 1
-        })
-        resolve();
-      }, 500)
-    })
-  },
+
   showNewInfo(e){
     const index = e.currentTarget.dataset.index;
+    const id = this.data.list[index]._id;
     wx.navigateTo({
-      url:'/pages/showNew/index?id=' + index
+      url:'/pages/showNew/index?id=' + id
     })
   }
 })

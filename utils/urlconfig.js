@@ -10,8 +10,11 @@ const interfaces = {
   // 案例的json数据
   getVideoList: domain + '/xapi/getVideoList',
 
-  // 获取新闻列表的数据
-  getNewsInfo: domain + '/xapi/getNewsInfo'
+  // 获取所有新闻列表的数据
+  getNewsInfo: domain + '/xapi/getNewsInfo',
+
+  //获取一条新闻数据
+  getOneNewInfo: domain + '/xapi/getOneNewInfo',
 }
 
 module.exports = interfaces;

@@ -1,6 +1,4 @@
 {
-  "usingComponents": {
-    "component-scroll": "/Component/component-scroll/index"
-  },
+  "enablePullDownRefresh": true,
   "navigationBarTitleText":"新闻动态"
 }

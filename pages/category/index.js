@@ -13,6 +13,9 @@ Page({
     SZpoint:[{image:'https://www.longjinph.com/test/wx/zgs/shenzhen/1.png',title:'奥卡美广场'},{image:'https://www.longjinph.com/test/wx/zgs/shenzhen/2.png',title:'星城购物中心'},{image:'https://www.longjinph.com/test/wx/zgs/shenzhen/3.png',title:'悦方广场'},{image:'https://www.longjinph.com/test/wx/zgs/shenzhen/4.png',title:'资信广场'}],
     cdTitle:"成都云股",
     CDpoint:[{image:'https://www.longjinph.com/test/wx/zgs/chengdu/1.png',title:'蓝光·东方天地'},{image:'https://www.longjinph.com/test/wx/zgs/chengdu/2.png',title:'融创Nano'},{image:'https://www.longjinph.com/test/wx/zgs/chengdu/3.png',title:'上古天地'},{image:'https://www.longjinph.com/test/wx/zgs/chengdu/4.png',title:'同森金棕榈'}],
+    whTitle:"武汉云股",
+    WHpoint:[{image:'https://www.longjinph.com/test/wx/zgs/wuhan/1.png',title:'福莱中心'},{image:'https://www.longjinph.com/test/wx/zgs/wuhan/2.png',title:'水岸国际'},{image:'https://www.longjinph.com/test/wx/zgs/wuhan/3.png',title:'新世界百货'},{image:'https://www.longjinph.com/test/wx/zgs/wuhan/4.png',title:'印象城'}],
+
   },
   /**
    * 生命周期函数--监听页面加载

@@ -83,7 +83,26 @@
       我是泸州云股
     </view>
     <view class="hq" wx:if="{{curIndex == 6}}">
-      我是武汉云股
+      <view class="city">{{whTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/wuhan/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">武汉是长江经济带核心城市，中部崛起战略支点、全面创新改革试验区，新一线城市。布局武汉，把脉新兴城市，探寻新兴城市发展机遇是云股发展壮大的必经之路。</text>
+        <text class="c_t">地址：湖北武汉市江汉民生路20号世纪中心写字楼</text>
+        <text class="c_t phone">电话：027-82807886</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw">
+        <block wx:for="{{WHpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 7}}">
       我是江门云股
