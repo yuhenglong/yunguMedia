@@ -16,7 +16,7 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/guangzhou/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">广州云股传媒坐落于繁华的天河区，邻近广州塔、IFC等著名地标。阡陌交通、车水马龙；商贸往来，络绎不绝，欢迎与您沟通。</text>
-        <text class="c_t">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
+        <text class="c_t phone">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
         <text class="c_t phone">电话：020-32547597</text>
       </view>
       <view class="tit_box">
@@ -38,7 +38,7 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/chengdu/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">成都云股位于成都市高新区。成都是一座历史悠久的文化古城，自古以来被誉为“天府之国”。立足成都，是希望展示其深厚的底蕴，弘扬优良文化。</text>
-        <text class="c_t">地址：四川省成都市高新区天府大道中段530号东方希望天祥广场B座4202</text>
+        <text class="c_t phone">地址：四川省成都市高新区天府大道中段530号东方希望天祥广场B座4202</text>
         <text class="c_t phone">电话：028-65586589</text>
       </view>
       <view class="tit_box">
@@ -60,7 +60,7 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/shenzhen/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">深圳云股位于深圳市中心福田区，毗邻香港，是珠三角重要的国际大都市。布局深圳，与城市共同发展是云股的初衷。</text>
-        <text class="c_t">地址：深圳市福田区福田街道岗厦社区金田路3038号现代国际大厦7楼703</text>
+        <text class="c_t phone">地址：深圳市福田区福田街道岗厦社区金田路3038号现代国际大厦7楼703</text>
         <text class="c_t phone">电话：0755-82780825</text>
       </view>
       <view class="tit_box">
@@ -88,7 +88,7 @@
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/wuhan/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">武汉是长江经济带核心城市，中部崛起战略支点、全面创新改革试验区，新一线城市。布局武汉，把脉新兴城市，探寻新兴城市发展机遇是云股发展壮大的必经之路。</text>
-        <text class="c_t">地址：湖北武汉市江汉民生路20号世纪中心写字楼</text>
+        <text class="c_t phone">地址：湖北武汉市江汉民生路20号世纪中心写字楼</text>
         <text class="c_t phone">电话：027-82807886</text>
       </view>
       <view class="tit_box">
@@ -105,7 +105,26 @@
       </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 7}}">
-      我是江门云股
+      <view class="city">{{jmTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/jiangmen/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">江门云股位于位于珠江三角洲西部，濒临南海，毗邻港澳的江门，而江门是广府文化的代表城市之一。落户江门，为全面布局珠三角起重要作用。</text>
+        <text class="c_t phone">地址：江门蓬江万达广场写字楼B座2814</text>
+        <text class="c_t phone">电话：0750-3910183</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw">
+        <block wx:for="{{JMpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 8}}">
       我是天门云股
