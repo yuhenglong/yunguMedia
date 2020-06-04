@@ -7,10 +7,10 @@
     </block>
   </scroll-view>
   <scroll-view class='nav_right' scroll-y>
-    <view class="hq" wx:if="{{curIndex == 0}}">
+    <!-- <view class="hq" wx:if="{{curIndex == 0}}">
       我是总部
-    </view>
-    <view class="hq" wx:if="{{curIndex == 1}}">
+    </view> -->
+    <view class="hq" wx:if="{{curIndex == 0}}">
       <view class="city">{{cityTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -32,7 +32,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 2}}">
+    <view class="hq" wx:if="{{curIndex == 1}}">
       <view class="city">{{cdTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -54,7 +54,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 3}}">
+    <view class="hq" wx:if="{{curIndex == 2}}">
       <view class="city">{{szTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -76,13 +76,51 @@
         </block>
       </view>
     </view>
+    <view class="hq" wx:if="{{curIndex == 3}}">
+      <view class="city">{{zsTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/zhongshan/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">中山云股位于广东四小虎之一的中山。中山市是全国4个不设区的地级市之一，珠三角中心城市之一、粤港澳大湾区重要节点城市。布局中山，为进一步扩大奠定基础。</text>
+        <text class="c_t phone">地址：中山市古镇新兴中路26号第5层009商铺</text>
+        <text class="c_t phone">电话：0760-8515776</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw" style="justify-content:center;">
+        <block wx:for="{{ZSpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
     <view class="hq" wx:if="{{curIndex == 4}}">
-      我是中山云股
+      <view class="city">{{lzTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/luzhou/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">泸州云股位于历史文化名城--泸州。泸州是川滇黔渝结合部的区域中心城市，成渝经济圈重要的商贸物流中心。布局泸州，寄望于与泸州的历史文化一样源远流长。</text>
+        <text class="c_t phone">地址：四川泸州江阳佳乐金街1号401</text>
+        <text class="c_t phone">电话：0830-8583377</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw">
+        <block wx:for="{{LZpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
     </view>
     <view class="hq" wx:if="{{curIndex == 5}}">
-      我是泸州云股
-    </view>
-    <view class="hq" wx:if="{{curIndex == 6}}">
       <view class="city">{{whTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -104,7 +142,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 7}}">
+    <view class="hq" wx:if="{{curIndex == 6}}">
       <view class="city">{{jmTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -126,8 +164,26 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 8}}">
-      我是天门云股
+    <view class="hq" wx:if="{{curIndex == 7}}">
+      <view class="city">{{cqTitle}}</view>
+      <view class="lc"></view>
+      <view class="city_box">
+        <image src="https://www.longjinph.com/test/wx/zgs/chongqing/city.png" class="city_bg" mode="widthFix"></image>
+        <text class="c_t">武汉是长江经济带核心城市，中部崛起战略支点、全面创新改革试验区，新一线城市。布局武汉，把脉新兴城市，探寻新兴城市发展机遇是云股发展壮大的必经之路。</text>
+        <text class="c_t phone">地址：重庆市渝北区龙溪街道红锦大道92号中渝广场1幢17楼03号</text>
+      </view>
+      <view class="tit_box">
+        <text class="tit">点位精选</text>
+        <view class="lheight"></view>
+      </view>
+      <view class="city_box dw">
+        <block wx:for="{{CQpoint}}" wx:key="index">
+          <view class="dwxj">
+            <image src="{{item.image}}" mode="widthFix" class="dw_img"></image>
+            <text class="dw_tt">{{item.title}}</text>
+          </view>
+        </block>
+      </view>
     </view>
   </scroll-view>
 </view>
