@@ -158,4 +158,5 @@
 }
 .cmei{
   width: 40rpx;
+  margin-right: 10rpx;
 }
