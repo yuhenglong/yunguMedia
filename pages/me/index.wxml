@@ -16,6 +16,9 @@
 <view wx:if="{{loginOut}}" class="lo">
   <button class="lo_btn" bindtap="loginOut">退出登录</button>
 </view>
+<!-- <view>
+  <button bindtap="getAdress">获取位置</button>
+</view> -->
 
 <view class="li_h" wx:if="{{loginOut}}"></view>
 <view class="xgbb">

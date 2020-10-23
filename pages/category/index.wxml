@@ -76,7 +76,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 3}}">
+    <!-- <view class="hq" wx:if="{{curIndex == 3}}">
       <view class="city">{{zsTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -97,8 +97,8 @@
           </view>
         </block>
       </view>
-    </view>
-    <view class="hq" wx:if="{{curIndex == 4}}">
+    </view> -->
+    <view class="hq" wx:if="{{curIndex == 3}}">
       <view class="city">{{lzTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -120,7 +120,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 5}}">
+    <view class="hq" wx:if="{{curIndex == 4}}">
       <view class="city">{{whTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -142,7 +142,7 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 6}}">
+    <view class="hq" wx:if="{{curIndex == 5}}">
       <view class="city">{{jmTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
@@ -164,12 +164,12 @@
         </block>
       </view>
     </view>
-    <view class="hq" wx:if="{{curIndex == 7}}">
+    <view class="hq" wx:if="{{curIndex == 6}}">
       <view class="city">{{cqTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
         <image src="https://www.longjinph.com/test/wx/zgs/chongqing/city.png" class="city_bg" mode="widthFix"></image>
-        <text class="c_t">武汉是长江经济带核心城市，中部崛起战略支点、全面创新改革试验区，新一线城市。布局武汉，把脉新兴城市，探寻新兴城市发展机遇是云股发展壮大的必经之路。</text>
+        <text class="c_t">重庆，一方神奇土地，雄奇的山水和厚重的巴文化造就的城市。沿江的城市与村落大多是巴国的文明中心，或为重镇或为都城，但更是巴蜀文化的走廊。布局重庆，展望未来。</text>
         <text class="c_t phone">地址：重庆市渝北区龙溪街道红锦大道92号中渝广场1幢17楼03号</text>
       </view>
       <view class="tit_box">

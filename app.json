@@ -6,7 +6,7 @@
     "pages/me/index",
     "pages/about/index",
     "pages/luoyan/index",
-    "pages/infoSave/index",
+    "pages/eyeSight/index",
     "pages/face/index",
     "pages/showNew/index",
     "pages/category/index",
@@ -15,7 +15,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ff751d",
-    "navigationBarTitleText": "云股传媒",
+    "navigationBarTitleText": "云股",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -35,12 +35,6 @@
         "iconPath": "image/category.png",
         "selectedIconPath": "image/category-hl.png",
         "text": "架构"
-      },
-      {
-        "pagePath": "pages/classify/index",
-        "iconPath": "image/classify.png",
-        "selectedIconPath": "image/classify-hl.png",
-        "text": "案例"
       },
       {
         "pagePath": "pages/news/index",

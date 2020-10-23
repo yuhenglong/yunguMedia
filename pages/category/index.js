@@ -19,8 +19,6 @@ Page({
     JMpoint:[{image:'https://www.longjinph.com/test/wx/zgs/jiangmen/1.png',title:'奥园写字楼'},{image:'https://www.longjinph.com/test/wx/zgs/jiangmen/2.png',title:'奥园广场'},{image:'https://www.longjinph.com/test/wx/zgs/jiangmen/3.png',title:'荷塘中嘉广场'},{image:'https://www.longjinph.com/test/wx/zgs/jiangmen/4.png',title:'嘉美影院'}],
     lzTitle:"泸州云股",
     LZpoint:[{image:'https://www.longjinph.com/test/wx/zgs/luzhou/1.png',title:'红星美凯龙商场'},{image:'https://www.longjinph.com/test/wx/zgs/luzhou/2.png',title:'摩尔国际广场'}],
-    zsTitle:"中山云股",
-    ZSpoint:[{image:'https://www.longjinph.com/test/wx/zgs/zhongshan/1.png',title:'五月花广场'}],
     cqTitle:"重庆云股",
     CQpoint:[{image:'https://www.longjinph.com/test/wx/zgs/chongqing/1.png',title:'恒大中渝广场'},{image:'https://www.longjinph.com/test/wx/zgs/chongqing/2.png',title:'石桥广场'},{image:'https://www.longjinph.com/test/wx/zgs/chongqing/3.png',title:'奥园广场'},{image:'https://www.longjinph.com/test/wx/zgs/chongqing/4.png',title:'中国人寿大厦'}]
   },

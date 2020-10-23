@@ -9,7 +9,7 @@ Page({
     logos:[
     {image: "/image/yungu.png", title: "云股传媒",page:"about"},
     {image: "/image/3D.png", title: "裸眼3D",page:"luoyan"},
-    {image: "/image/save.png", title: "信息安全",page:'infoSave'},
+    {image: "/image/eyeSight.png", title: "视力纠正",page:'eyeSight'},
     {image: "/image/face.png", title: "人脸识别",page:"face"}],
     swipers:[{image: "/image/home_one.jpg"},{image: "/image/home_two.jpg"},{image: "/image/home_thr.jpg"}],
     indicatorDots:true,

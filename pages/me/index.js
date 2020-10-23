@@ -78,6 +78,10 @@ Page({
       })
     }
   },
+  //获取地理位置
+  getAdress(){
+    
+  },
   // 页面跳转
   linkTo(){
     wx.navigateTo({

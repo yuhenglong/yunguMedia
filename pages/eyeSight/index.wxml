@@ -1,0 +1,47 @@
+<view class="eyeSight">
+  <image src="https://www.longjinph.com/test/wx/image/eyeSight.png" class="img_is" mode="widthFix"></image>
+  <view class="con_box">
+    <text class="is_text">大眼猫科技</text>
+    <view class="lc"></view>
+    <view class="is_ad">
+      <text class="is_tt">大眼猫医疗器械科技有限公司与云股传媒集团达成高度战略合作，成立至今，已经构建起集研发设计、智能制造与医疗应用为一体的裸眼3D和儿童视力矫正的全新高科技产业链，拥有全球顶尖的裸眼3D软硬件开发团队、3D内容制作团队。已建四川省南充市裸眼3D小屏生产基地、北京裸眼3D大屏生产基地。企业能够为客户提供一揽子精品完备性服务。</text>
+      <view class="img_box">
+        <image src="/image/ns_one.png" class="i_1" mode="widthFix"></image>
+        <image src="/image/ns_two.png" class="i_2" mode="widthFix"></image>
+        <image src="/image/ns_thr.png" class="i_3" mode="widthFix"></image>
+      </view>
+
+    </view>
+    <text class="is_text">科技创新</text>
+    <view class="lc"></view>
+    <view class="is_ad mar_bot">
+      <view class="is_ad">
+          <text class="is_tt">大眼猫医疗器械科技有限公司，拟建立一套行之有效的“商业应用反哺技术研发体系”，目前已经组建一批由优秀学科带头人领衔、学术水平高、创新能力强的科研团队，积极开展行业共性、关键性和前瞻性技术的研究开发，科研团队专家组成员承担了多项国家重点科技计划项目，攻克和突破了一系列基于裸眼3D“纠正”假近视，未来大量引入腔镜手术等技术方面的重大技术难题，形成了一批具有自主知识产权和世界先进水平的技术创新成果，获得多项国家和省部级科技进步奖。</text>
+      </view>
+      <view class="iib">
+        <view class="ibox">
+          <image src="/image/jk.png" class="i_hz" mode="widthFix"></image>
+         
+        </view>
+        <view class="ibox">
+          <image src="/image/kj.png" class="i_hz" mode="widthFix"></image>
+         
+        </view>
+        <view class="ibox">
+          <image src="/image/bh.png" class="i_hz" mode="widthFix"></image>
+         
+        </view>
+        <view class="ibox">
+          <image src="/image/zl.png" class="i_hz" mode="widthFix"></image>
+          
+        </view>
+      </view>
+      <view class="i_tt">
+        <text>关注健康</text>
+        <text>科技互联</text>
+        <text>视力保护</text>
+        <text>助力儿童</text>
+      </view>
+    </view>
+  </view>
+</view>
