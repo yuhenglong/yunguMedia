@@ -1,4 +1,4 @@
-const domain = 'https://www.longjinph.com'; 
+const domain = 'https://www.oxeyescat.com'; 
 
 const interfaces = {
   // 发送的客户信息的json数据
