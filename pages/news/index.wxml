@@ -1,9 +1,8 @@
 <view class="map_box">
 <view class="inp_box">
   <input placeholder="请输入搜索地点" bindinput="getAddress" value="{{backfill}}" class="inp"/>
-  <button bindtap="btnClick" style=" width: 30%;height: 60rpx;line-height:30rpx;font-size:30rpx">搜索</button>
+  <button bindtap="btnClick" class="btnss">搜索</button>
 </view>
-  
   <map name="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" class="map"
     bindlabeltap="labelTan" bindtap="bindTap">
     <cover-view slot="callout" class="cov" wx:if="{{showLabelTan}}">

@@ -1,5 +1,5 @@
 <view class="face">
-  <image src="https://www.longjinph.com/test/wx/image/face_bj.png" class="img_fa" mode="widthFix"></image>
+  <image src="https://www.oxeyescat.com/test/wx/image/face_bj.png" class="img_fa" mode="widthFix"></image>
   <view class="con_box">
     <text class="fa_text">人脸识别</text>
     <view class="lc"></view>
@@ -33,6 +33,6 @@
     <text class="fa_text">广告影响</text>
     <view class="lc"></view>
     <text class="face_text">这种功能不仅仅是对驻足观看广告的人有效，即便是匆匆路过的行人，只要他扫了广告牌一眼，他的面部数据同样会被储存与存与分析，而这些珍贵的信息则成为公司制定下一个市场营销策略。</text>
-    <image src="https://www.longjinph.com/test/wx/image/sg.png" class="sg" mode="widthFix"></image>
+    <image src="https://www.oxeyescat.com/test/wx/image/sg.png" class="sg" mode="widthFix"></image>
   </view>
 </view>

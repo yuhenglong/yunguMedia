@@ -1,5 +1,5 @@
 <view class="eyeSight">
-  <image src="https://www.longjinph.com/test/wx/image/eyeSight.png" class="img_is" mode="widthFix"></image>
+  <image src="https://www.oxeyescat.com/test/wx/image/eyeSight.png" class="img_is" mode="widthFix"></image>
   <view class="con_box">
     <text class="is_text">大眼猫科技</text>
     <view class="lc"></view>

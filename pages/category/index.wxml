@@ -14,7 +14,7 @@
       <view class="city">{{cityTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/guangzhou/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/guangzhou/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">广州云股传媒坐落于繁华的天河区，邻近广州塔、IFC等著名地标。阡陌交通、车水马龙；商贸往来，络绎不绝，欢迎与您沟通。</text>
         <text class="c_t phone">地址：天河区黄埔大道西富力盈泰大厦A座1208</text>
         <text class="c_t phone">电话：020-32547597</text>
@@ -36,7 +36,7 @@
       <view class="city">{{cdTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/chengdu/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/chengdu/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">成都云股位于成都市高新区。成都是一座历史悠久的文化古城，自古以来被誉为“天府之国”。立足成都，是希望展示其深厚的底蕴，弘扬优良文化。</text>
         <text class="c_t phone">地址：四川省成都市高新区天府大道中段530号东方希望天祥广场B座4202</text>
         <text class="c_t phone">电话：028-65586589</text>
@@ -58,7 +58,7 @@
       <view class="city">{{szTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/shenzhen/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/shenzhen/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">深圳云股位于深圳市中心福田区，毗邻香港，是珠三角重要的国际大都市。布局深圳，与城市共同发展是云股的初衷。</text>
         <text class="c_t phone">地址：深圳市福田区福田街道岗厦社区金田路3038号现代国际大厦7楼703</text>
         <text class="c_t phone">电话：0755-82780825</text>
@@ -80,7 +80,7 @@
       <view class="city">{{zsTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/zhongshan/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/zhongshan/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">中山云股位于广东四小虎之一的中山。中山市是全国4个不设区的地级市之一，珠三角中心城市之一、粤港澳大湾区重要节点城市。布局中山，为进一步扩大奠定基础。</text>
         <text class="c_t phone">地址：中山市古镇新兴中路26号第5层009商铺</text>
         <text class="c_t phone">电话：0760-8515776</text>
@@ -102,7 +102,7 @@
       <view class="city">{{lzTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/luzhou/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/luzhou/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">泸州云股位于历史文化名城--泸州。泸州是川滇黔渝结合部的区域中心城市，成渝经济圈重要的商贸物流中心。布局泸州，寄望于与泸州的历史文化一样源远流长。</text>
         <text class="c_t phone">地址：四川泸州江阳佳乐金街1号401</text>
         <text class="c_t phone">电话：0830-8583377</text>
@@ -124,7 +124,7 @@
       <view class="city">{{whTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/wuhan/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/wuhan/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">武汉是长江经济带核心城市，中部崛起战略支点、全面创新改革试验区，新一线城市。布局武汉，把脉新兴城市，探寻新兴城市发展机遇是云股发展壮大的必经之路。</text>
         <text class="c_t phone">地址：湖北武汉市江汉民生路20号世纪中心写字楼</text>
         <text class="c_t phone">电话：027-82807886</text>
@@ -146,7 +146,7 @@
       <view class="city">{{jmTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/jiangmen/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/jiangmen/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">江门云股位于位于珠江三角洲西部，濒临南海，毗邻港澳的江门，而江门是广府文化的代表城市之一。落户江门，为全面布局珠三角起重要作用。</text>
         <text class="c_t phone">地址：江门蓬江万达广场写字楼B座2814</text>
         <text class="c_t phone">电话：0750-3910183</text>
@@ -168,7 +168,7 @@
       <view class="city">{{cqTitle}}</view>
       <view class="lc"></view>
       <view class="city_box">
-        <image src="https://www.longjinph.com/test/wx/zgs/chongqing/city.png" class="city_bg" mode="widthFix"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/chongqing/city.png" class="city_bg" mode="widthFix"></image>
         <text class="c_t">重庆，一方神奇土地，雄奇的山水和厚重的巴文化造就的城市。沿江的城市与村落大多是巴国的文明中心，或为重镇或为都城，但更是巴蜀文化的走廊。布局重庆，展望未来。</text>
         <text class="c_t phone">地址：重庆市渝北区龙溪街道红锦大道92号中渝广场1幢17楼03号</text>
       </view>
