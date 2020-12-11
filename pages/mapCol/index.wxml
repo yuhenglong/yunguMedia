@@ -1,0 +1,37 @@
+<view class="mapCol">
+  <view class="map_i">
+    <image src="https://www.oxeyescat.com/test/wx/image/bannerOne.png"></image>
+  </view>
+  <view class="map_box">
+    <view class="boxM">
+      <view class="m_b" catchtap="linkToGZ">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>广州云股传媒点位</text>
+      </view>
+      <view class="m_b">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>成都云股传媒点位</text>
+      </view>
+    </view>
+    <view class="boxM">
+      <view class="m_b">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>深圳云股传媒点位</text>
+      </view>
+      <view class="m_b">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>武汉云股传媒点位</text>
+      </view>
+    </view>
+    <view class="boxM">
+      <view class="m_b">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>江门云股传媒点位</text>
+      </view>
+      <view class="m_b">
+        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <text>重庆云股传媒点位</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+/* pages/mapCol/index.wxss */
+.mapCol{
+  width: 100%;
+  height: auto;
+}
+.map_i{
+  width: 100%;
+  height: auto;
+}
+.map_i image{
+  width: 100%;
+  height:325rpx;
+  display: block;
+}
+.map_box{
+  width: 100%;
+  height: auto;
+  padding: 30rpx 0;
+}
+.boxM{
+  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-items: space-between;
+  align-items: center;
+}
+.m_b{
+  width: 50%;
+  padding: 20rpx 0 10rpx;
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+}
+.m_b image{
+  width: 325rpx;
+  height: 213.7rpx;
+  display: block;
+}
+.m_b text{
+  padding: 25rpx 0;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}

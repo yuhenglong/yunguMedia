@@ -16,90 +16,87 @@ Page({
     scale: 14,
     suggestion: [],
     showLabelTan: false,
-    population: "5000",
-    equip: "50",
-    longitude: "112.487847",
-    latitude: "38.002607",
+    info:"",
+    population: "",
+    equip: "",
+    longitude: "113.334925405",
+    latitude: "23.126035809",
     newAdreObj: {},
     markers: [{
-      iconPath: "/image/location.png",
+      iconPath: "/image/locationRed.png",
       id: 0,
-      latitude: 38.002607,
-      longitude: 105.487847,
+      latitude: 23.126035809,
+      longitude: 113.334925405,
       joinCluster: true,
       placeInfo: {
-        population: "100000",
-        equip: "12",
+        info:"黄埔大道100号富力盈泰A座1208",
+        population: "10000",
+        equip: "0",
         placeImg: "/image/yungu.png"
       },
       label: {
-        width: 50,
-        height: 30,
         borderWidth: 1,
         borderColor: "#ffffff",
-        borderRadius: 10,
+        borderRadius: 3,
         bgColor: '#ffffff',
-        content: "大傻瓜婷婷"
+        content: "云股传媒广州分公司"
       }
     }, {
       iconPath: "/image/location.png",
       id: 1,
-      latitude: 35.002607,
-      longitude: 109.487847,
+      latitude: 23.148468466,
+      longitude: 113.323370052,
       joinCluster: true,
       placeInfo: {
-        population: "160000",
-        equip: "15",
+        info:"黄埔大道100号富力盈泰A座1208",
+        population: "50000",
+        equip: "8",
         placeImg: "/image/yungu.png"
       },
       label: {
-        width: 50,
-        height: 30,
         borderWidth: 1,
         borderColor: "#ffffff",
-        borderRadius: 10,
+        borderRadius: 3,
         bgColor: '#ffffff',
-        content: "萌萌的布布"
+        content: "保利中汇广场"
       }
     }, {
       iconPath: "/image/location.png",
       id: 2,
-      latitude: 39.002607,
-      longitude: 113.487847,
+      latitude: 23.181443809,
+      longitude: 113.320458405,
       joinCluster: true,
       placeInfo: {
-        population: "154000540",
-        equip: "13",
+        info:"广州市白云区广州大道北1419号",
+        population: "30000",
+        equip: "8",
         placeImg: "/image/yungu.png"
       },
       label: {
-        width: 50,
-        height: 30,
         borderWidth: 1,
         borderColor: "#ffffff",
-        borderRadius: 10,
+        borderRadius: 3,
         bgColor: '#ffffff',
-        content: "傻逼的一二"
+        content: "润佳广场"
       }
     }, {
       iconPath: "/image/location.png",
       id: 3,
-      latitude: 38.002607,
-      longitude: 112.487847,
+      latitude: 23.146961,
+      longitude: 113.362153,
       joinCluster: true,
       placeInfo: {
-        population: "200000",
-        equip: "19",
+        info:"广州市天河区广园路科华街251号",
+        population: "40000",
+        equip: "5",
         placeImg: "/image/yungu.png"
       },
       label: {
-        width: 80,
-        height: 30,
         borderWidth: 1,
         borderColor: "#ffffff",
-        borderRadius: 10,
+        borderRadius: 3,
         bgColor: '#ffffff',
-        content: "大傻瓜hah "
+        content: "乐天创意园 "
       }
     }]
   },
@@ -107,10 +104,12 @@ Page({
     const self = this;
     console.log(e.markerId)
     const num = e.markerId;
+    const info = self.data.markers[num].placeInfo.info;
     const equipment = self.data.markers[num].placeInfo.equip;
     const population = self.data.markers[num].placeInfo.population;
     self.setData({
       showLabelTan: true,
+      info: info,
       population: population,
       equip: equipment
     })
@@ -172,7 +171,6 @@ Page({
         const c = self.data.markers.concat(arr)
         self.setData({
           markers: c,
-          backfill: self.data.suggestion[0].title,
           latitude: self.data.suggestion[0].latitude,
           longitude: self.data.suggestion[0].longitude,
           scale: 16

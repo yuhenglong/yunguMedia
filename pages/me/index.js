@@ -66,6 +66,24 @@ Page({
     })
     wx.reLaunch({url:"/pages/me/index"})
   },
+  getScancode(){
+    wx.scanCode({
+      onlyFromCamera: true,
+      success(res) {
+        console.log("scan", res)
+        var result = res.result
+        console.log('sssssssssss', result)
+        wx.setStorageSync('scan', result)
+        //注意，此处如果不用缓存带链接去界面，可能会发生链接无法带参的情况。
+        wx.navigateTo({
+          url: '/pages/scanUrl/index?result=' + result,
+        })
+      },
+      complete(res) {
+        console.log("complete", res)
+      }
+    })
+  },
   // 折叠面板
   showAddress(){
     if(this.data.showaddress){

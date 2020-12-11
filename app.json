@@ -2,7 +2,7 @@
   "pages": [
     "pages/home/index",
     "pages/classify/index",
-    "pages/news/index",
+    "pages/gzMap/index",
     "pages/me/index",
     "pages/about/index",
     "pages/luoyan/index",
@@ -10,12 +10,14 @@
     "pages/face/index",
     "pages/showNew/index",
     "pages/category/index",
-    "pages/BMap/index"
+    "pages/BMap/index",
+    "pages/mapCol/index",
+    "pages/scanUrl/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ff751d",
-    "navigationBarTitleText": "云股",
+    "navigationBarTitleText": "云股传媒",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -37,7 +39,7 @@
         "text": "架构"
       },
       {
-        "pagePath": "pages/news/index",
+        "pagePath": "pages/mapCol/index",
         "iconPath": "image/map.png",
         "selectedIconPath": "image/map-hl.png",
         "text": "点位"

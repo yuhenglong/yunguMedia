@@ -38,6 +38,15 @@
   <view class="line_h"></view>
 </view>
 <view class="map">
+  <view class="map_b" catchtap="getScancode">
+    <text class="map_tt">大眼猫防伪扫一扫</text>
+    <image src="/image/sao.png" class="nav_m" mode="widthFix"></image>
+  </view>
+</view>
+<view class="l_box">
+  <view class="line_h"></view>
+</view>
+<view class="map">
   <view class="map_b" catchtap="showAddress">
     <text class="map_tt">云股总部地址</text>
     <image src="/image/{{showaddress?'up':'slide'}}.png" class="nav_m" mode="widthFix"></image>
