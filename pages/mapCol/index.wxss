@@ -9,7 +9,7 @@
 }
 .map_i image{
   width: 100%;
-  height:325rpx;
+  height:380rpx;
   display: block;
 }
 .map_box{
@@ -36,7 +36,7 @@
 }
 .m_b image{
   width: 325rpx;
-  height: 213.7rpx;
+  height: 322.3rpx;
   display: block;
 }
 .m_b text{

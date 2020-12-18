@@ -36,9 +36,10 @@
 
 }
 .is_ad .is_tt{
-  font-size:24rpx;
-  line-height: 30rpx;
-  text-indent:30rpx;
+  font-size:26rpx;
+  line-height:32rpx;
+  color:#333;
+  text-indent: 30rpx;
 }
 .img_box{
   margin-top:20rpx;

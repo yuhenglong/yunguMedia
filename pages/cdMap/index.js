@@ -19,84 +19,208 @@ Page({
     info:"",
     population: "",
     equip: "",
-    longitude: "113.334925405",
-    latitude: "23.126035809",
+    longitude: "104.067834",
+    latitude: "30.552925",
     newAdreObj: {},
     markers: [{
       iconPath: "/image/locationRed.png",
       id: 0,
-      latitude: 23.126035809,
-      longitude: 113.334925405,
+      latitude: 30.552925,
+      longitude: 104.067834,
       joinCluster: true,
       placeInfo: {
-        info:"黄埔大道100号富力盈泰A座1208",
+        info:"高新区天府大道中段530号东方希望天祥广场B座4202",
         population: "10000",
         equip: "0",
         placeImg: "/image/yungu.png"
       },
       label: {
         borderWidth: 1,
+        padding:"10rpx",
         borderColor: "#ffffff",
         borderRadius: 3,
         bgColor: '#ffffff',
-        content: "云股传媒广州分公司"
+        content: "云股传媒成都分公司"
       }
     }, {
       iconPath: "/image/location.png",
       id: 1,
-      latitude: 23.148468466,
-      longitude: 113.323370052,
+      latitude: 30.760187742,
+      longitude: 104.067986892,
       joinCluster: true,
       placeInfo: {
-        info:"广州市天河区林和西路157号",
-        population: "50000",
-        equip: "8",
+        info:"新都区大丰镇大天路439号",
+        population: "30000",
+        equip: "7",
         placeImg: "/image/yungu.png"
       },
       label: {
         borderWidth: 1,
+        padding:"10rpx",
         borderColor: "#ffffff",
         borderRadius: 3,
         bgColor: '#ffffff',
-        content: "保利中汇广场"
+        content: "福地广场家乐福"
       }
     }, {
       iconPath: "/image/location.png",
       id: 2,
-      latitude: 23.181443809,
-      longitude: 113.320458405,
+      latitude: 30.764904,
+      longitude: 104.063183,
       joinCluster: true,
       placeInfo: {
-        info:"广州市白云区广州大道北1419号",
+        info:"新都区方元路55号",
         population: "30000",
-        equip: "8",
+        equip: "11",
         placeImg: "/image/yungu.png"
       },
       label: {
         borderWidth: 1,
+        padding:"10rpx",
         borderColor: "#ffffff",
         borderRadius: 3,
         bgColor: '#ffffff',
-        content: "润佳广场"
+        content: "汇融广场mall"
       }
     }, {
       iconPath: "/image/location.png",
       id: 3,
-      latitude: 23.146961,
-      longitude: 113.362153,
+      latitude: 30.762818799,
+      longitude: 104.056401899,
       joinCluster: true,
       placeInfo: {
-        info:"广州市天河区广园路科华街251号",
+        info:"新都区方营路78",
+        population: "40000",
+        equip: "3",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "听蓝时光 "
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 4,
+      latitude: 30.8102,
+      longitude: 104.1773,
+      joinCluster: true,
+      placeInfo: {
+        info:"新都区马超东路222号",
+        population: "30000",
+        equip: "5",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "和信新城市广场 "
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 5,
+      latitude: 30.757065248,
+      longitude: 104.077911124,
+      joinCluster: true,
+      placeInfo: {
+        info:"新都区双楠大道白衣上街177号",
+        population: "60000",
+        equip: "5",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "城北优品道 "
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 6,
+      latitude: 30.764965899,
+      longitude: 104.12124545,
+      joinCluster: true,
+      placeInfo: {
+        info:"新都区蓉都大道天河路1380号",
+        population: "30000",
+        equip: "1",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "吉利安大厦 "
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 7,
+      latitude: 30.625721349,
+      longitude: 104.022690674,
+      joinCluster: true,
+      placeInfo: {
+        info:"武侯区佳灵路与武阳大道交汇处",
+        population: "60000",
+        equip: "6",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "下一站都市"
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 8,
+      latitude: 30.65098,
+      longitude: 103.98544,
+      joinCluster: true,
+      placeInfo: {
+        info:"武侯区万顺二路",
         population: "40000",
         equip: "5",
         placeImg: "/image/yungu.png"
       },
       label: {
         borderWidth: 1,
+        padding:"10rpx",
         borderColor: "#ffffff",
         borderRadius: 3,
         bgColor: '#ffffff',
-        content: "乐天创意园 "
+        content: "金阳不夜都"
+      }
+    }, {
+      iconPath: "/image/location.png",
+      id: 9,
+      latitude: 30.604149899,
+      longitude: 103.98460245,
+      joinCluster: true,
+      placeInfo: {
+        info:"武侯区簇桥金履二路167号",
+        population: "50000",
+        equip: "6",
+        placeImg: "/image/yungu.png"
+      },
+      label: {
+        borderWidth: 1,
+        padding:"10rpx",
+        borderColor: "#ffffff",
+        borderRadius: 3,
+        bgColor: '#ffffff',
+        content: "富顿中心"
       }
     }]
   },
@@ -125,7 +249,7 @@ Page({
     qqmapsdk.getSuggestion({
       //获取输入框值并设置keyword参数
       keyword: e.detail.value, //用户输入的关键词，可设置固定值,如keyword:'KFC'
-      region: '广州', //设置城市名，限制关键词所示的地域范围，非必填参数
+      region: '成都', //设置城市名，限制关键词所示的地域范围，非必填参数
       page_size: 8,
       success: function (res) { //搜索成功后的回调
         _this.setData({

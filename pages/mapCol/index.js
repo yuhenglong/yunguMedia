@@ -7,9 +7,11 @@ Page({
   data: {
 
   },
-  linkToGZ:function(){
+  linkTo:function(event){
+    const place = event.currentTarget.dataset.place;
+    const url = '/pages/'+ place +'Map/index';
     wx.navigateTo({
-      url: '/pages/gzMap/index',
+      url: url
     })
   },
   /**

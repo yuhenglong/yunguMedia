@@ -4,32 +4,32 @@
   </view>
   <view class="map_box">
     <view class="boxM">
-      <view class="m_b" catchtap="linkToGZ">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+      <view class="m_b" catchtap="linkTo" data-place="gz">
+        <image src="https://www.oxeyescat.com/test/wx/zgs/guangzhou/city.png"></image>
         <text>广州云股传媒点位</text>
       </view>
-      <view class="m_b">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+      <view class="m_b" catchtap="linkTo" data-place="cd">
+        <image src="https://www.oxeyescat.com/test/wx/zgs/chengdu/city.png"></image>
         <text>成都云股传媒点位</text>
       </view>
     </view>
     <view class="boxM">
       <view class="m_b">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/shenzhen/city.png"></image>
         <text>深圳云股传媒点位</text>
       </view>
       <view class="m_b">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/wuhan/city.png"></image>
         <text>武汉云股传媒点位</text>
       </view>
     </view>
     <view class="boxM">
       <view class="m_b">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/jiangmen/city.png"></image>
         <text>江门云股传媒点位</text>
       </view>
       <view class="m_b">
-        <image src="https://www.oxeyescat.com/test/wx/image/guangzhou.png"></image>
+        <image src="https://www.oxeyescat.com/test/wx/zgs/chongqing/city.png"></image>
         <text>重庆云股传媒点位</text>
       </view>
     </view>
