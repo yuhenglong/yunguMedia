@@ -1,5 +1,7 @@
 // pages/news/index.js
 var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
+// 引入接口配置文件urlconfig
+const interfaces = require('../../utils/urlconfig.js');
 
 // 实例化API核心类
 var qqmapsdk = new QQMapWX({
@@ -16,226 +18,31 @@ Page({
     scale: 14,
     suggestion: [],
     showLabelTan: false,
-    info:"",
+    district:"",
+    info: "",
     population: "",
     equip: "",
+    navId:"",
     longitude: "104.067834",
     latitude: "30.552925",
     newAdreObj: {},
-    markers: [{
-      iconPath: "/image/locationRed.png",
-      id: 0,
-      latitude: 30.552925,
-      longitude: 104.067834,
-      joinCluster: true,
-      placeInfo: {
-        info:"高新区天府大道中段530号东方希望天祥广场B座4202",
-        population: "10000",
-        equip: "0",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "云股传媒成都分公司"
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 1,
-      latitude: 30.760187742,
-      longitude: 104.067986892,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区大丰镇大天路439号",
-        population: "30000",
-        equip: "7",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "福地广场家乐福"
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 2,
-      latitude: 30.764904,
-      longitude: 104.063183,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区方元路55号",
-        population: "30000",
-        equip: "11",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "汇融广场mall"
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 3,
-      latitude: 30.762818799,
-      longitude: 104.056401899,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区方营路78",
-        population: "40000",
-        equip: "3",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "听蓝时光 "
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 4,
-      latitude: 30.8102,
-      longitude: 104.1773,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区马超东路222号",
-        population: "30000",
-        equip: "5",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "和信新城市广场 "
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 5,
-      latitude: 30.757065248,
-      longitude: 104.077911124,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区双楠大道白衣上街177号",
-        population: "60000",
-        equip: "5",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "城北优品道 "
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 6,
-      latitude: 30.764965899,
-      longitude: 104.12124545,
-      joinCluster: true,
-      placeInfo: {
-        info:"新都区蓉都大道天河路1380号",
-        population: "30000",
-        equip: "1",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "吉利安大厦 "
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 7,
-      latitude: 30.625721349,
-      longitude: 104.022690674,
-      joinCluster: true,
-      placeInfo: {
-        info:"武侯区佳灵路与武阳大道交汇处",
-        population: "60000",
-        equip: "6",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "下一站都市"
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 8,
-      latitude: 30.65098,
-      longitude: 103.98544,
-      joinCluster: true,
-      placeInfo: {
-        info:"武侯区万顺二路",
-        population: "40000",
-        equip: "5",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "金阳不夜都"
-      }
-    }, {
-      iconPath: "/image/location.png",
-      id: 9,
-      latitude: 30.604149899,
-      longitude: 103.98460245,
-      joinCluster: true,
-      placeInfo: {
-        info:"武侯区簇桥金履二路167号",
-        population: "50000",
-        equip: "6",
-        placeImg: "/image/yungu.png"
-      },
-      label: {
-        borderWidth: 1,
-        padding:"10rpx",
-        borderColor: "#ffffff",
-        borderRadius: 3,
-        bgColor: '#ffffff',
-        content: "富顿中心"
-      }
-    }]
+    markers: []
   },
   labelTan: function (e) {
     const self = this;
     console.log(e.markerId)
     const num = e.markerId;
     const info = self.data.markers[num].placeInfo.info;
+    const district = self.data.markers[num].placeInfo.district;
     const equipment = self.data.markers[num].placeInfo.equip;
     const population = self.data.markers[num].placeInfo.population;
     self.setData({
       showLabelTan: true,
       info: info,
       population: population,
-      equip: equipment
+      equip: equipment,
+      district:district,
+      navId:num
     })
   },
   bindTap: function () {
@@ -305,7 +112,30 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  delInfo:function(){
+    wx.navigateTo({
+      url: '/pages/delPlaceInfo/index?navId=' + this.data.navId,
+    })
+  },
   onLoad: function (options) {
+    const self = this;
+    wx.showLoading({
+      title: "加载中..."
+    });
+    wx.request({
+      url: interfaces.getCdPlaceInfo,
+      header: {
+        'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
+      },
+      success(res) {
+        if (res.data.code === 0) {
+          self.setData({
+            markers: res.data.data
+          })
+          wx.hideLoading()
+        }
 
+      }
+    })
   }
 })

@@ -15,6 +15,9 @@ const interfaces = {
 
   //获取一条新闻数据
   getOneNewInfo: domain + '/xapi/getOneNewInfo',
+
+  //获取成都广告点位信息
+  getCdPlaceInfo: domain +"/xapi/getPlaceInfo"
 }
 
 module.exports = interfaces;

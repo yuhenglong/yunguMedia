@@ -12,7 +12,8 @@
     "pages/category/index",
     "pages/BMap/index",
     "pages/mapCol/index",
-    "pages/scanUrl/index"
+    "pages/scanUrl/index",
+    "pages/delPlaceInfo/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

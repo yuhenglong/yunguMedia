@@ -1,0 +1,38 @@
+<!--pages/delPlcaeInfo/index.wxml-->
+<view class="delPlaceInfo">
+  <h2>场地具体信息</h2>
+  <view class="table">
+      <view class="tr bg-g">
+        <view class="tdt">项目名称：</view>
+        <view class="td">{{content}}</view>
+      </view>
+      <view class="tr bg-w">
+        <view class="tdt">设备数：</view>
+        <view class="td">{{equip}}</view>
+      </view>
+      <view class="tr bg-g">
+        <view class="tdt">地址：</view>
+        <view class="td">{{district}}{{info}}</view>
+      </view>
+      <view class="tr bg-w">
+        <view class="tdt">位置：</view>
+        <view class="td">{{area}}</view>
+      </view>
+      <view class="tr bg-g">
+        <view class="tdt">设备尺寸：</view>
+        <view class="td">{{specification}}</view>
+      </view>
+      <view class="trr bg-w">
+        <h3 class="tdt">场景：</h3>
+        <image src="{{placeImg}}" mode="widthFix"></image>
+      </view>
+      <view class="tr bg-g">
+        <view class="tdt">项目类别：</view>
+        <view class="td">{{sort}}</view>
+      </view>
+      <view class="tr bg-w">
+        <view class="tdt">人流量：</view>
+        <view class="td">{{population}}</view>
+      </view>
+  </view>
+</view>
