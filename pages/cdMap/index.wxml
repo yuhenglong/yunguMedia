@@ -1,15 +1,19 @@
 <view class="map_box">
-<view class="inp_box">
-  <input placeholder="请输入搜索地点" bindinput="getAddress" value="{{backfill}}" class="inp"/>
-  <button bindtap="btnClick" class="btnss">搜索</button>
-</view>
+  <view class="inp_box">
+    <input placeholder="请输入搜索地点" bindinput="getAddress" value="{{backfill}}" class="inp" />
+    <button bindtap="btnClick" class="btnss">搜索</button>
+  </view>
   <map name="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" class="map"
     bindlabeltap="labelTan" bindtap="bindTap">
     <cover-view slot="callout" class="cov" wx:if="{{showLabelTan}}">
       <cover-view class="adr">地址：{{district}}{{info}}</cover-view>
-      <cover-view class="ban">人次：{{population}}/天</cover-view>
-      <cover-view class="ban">设备数：{{equip}}/台</cover-view>
-      <cover-view class="fban" catchtap="delInfo">详情</cover-view>
+      <cover-view style="overflow:hidden">
+        <cover-view class="ban">
+          <cover-view>人次：{{population}}/天</cover-view>
+          <cover-view>设备数：{{equip}}/台</cover-view>
+        </cover-view>
+        <cover-view class="fban" catchtap="delInfo">详情</cover-view>
+      </cover-view>
     </cover-view>
   </map>
 </view>

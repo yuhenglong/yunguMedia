@@ -2,6 +2,8 @@
 var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
 // 引入接口配置文件urlconfig
 const interfaces = require('../../utils/urlconfig.js');
+//引入本地json文件
+const CDdata = require("../../utils/CDdata.js")
 
 // 实例化API核心类
 var qqmapsdk = new QQMapWX({
@@ -15,14 +17,14 @@ Page({
   data: {
     backfill: "",
     val: "",
-    scale: 14,
+    scale: 12,
     suggestion: [],
     showLabelTan: false,
-    district:"",
+    district: "",
     info: "",
     population: "",
     equip: "",
-    navId:"",
+    navId: "",
     longitude: "104.067834",
     latitude: "30.552925",
     newAdreObj: {},
@@ -41,8 +43,8 @@ Page({
       info: info,
       population: population,
       equip: equipment,
-      district:district,
-      navId:num
+      district: district,
+      navId: num
     })
   },
   bindTap: function () {
@@ -112,30 +114,37 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  delInfo:function(){
+  delInfo: function () {
     wx.navigateTo({
       url: '/pages/delPlaceInfo/index?navId=' + this.data.navId,
     })
   },
   onLoad: function (options) {
-    const self = this;
     wx.showLoading({
       title: "加载中..."
     });
-    wx.request({
-      url: interfaces.getCdPlaceInfo,
-      header: {
-        'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
-      },
-      success(res) {
-        if (res.data.code === 0) {
-          self.setData({
-            markers: res.data.data
-          })
-          wx.hideLoading()
-        }
 
-      }
+    this.setData({
+      markers: CDdata.CDdata
     })
+
+    wx.hideLoading()
+
+    // wx.request({
+    //   url: interfaces.getCdPlaceInfo,
+    //   // url: "../../utils/CDdata.json",
+    //   header: {
+    //     'content-type': 'application/json' // 默认值，返回的数据设置为json数组格式
+    //   },
+    //   success(res) {
+    //     if (res.data.code === 0) {
+    //       self.setData({
+    //         markers: res.data.data
+    //       })
+    //       wx.hideLoading()
+    //     }
+
+    //   }
+    // })
   }
 })
